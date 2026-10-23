@@ -1,0 +1,2935 @@
+{
+ "t_first": 1782394740000,
+ "t_mid": 1787571300000,
+ "t_last": 1792747860000,
+ "results": [
+  {
+   "days": 59.9,
+   "initial_capital": 50.0,
+   "final_equity": 52.0533250175,
+   "return_pct": 4.106650035,
+   "realized_pnl": 2.5465539482513746,
+   "unrealized_pnl": -0.4932289307513748,
+   "fees_paid": 1.6882746125,
+   "cycles": 65,
+   "liquidated_lots": 0,
+   "open_lots": 5,
+   "avg_net_bps_per_cycle": 79.07119099524257,
+   "max_drawdown_pct": 4.621672795768413,
+   "avg_hold_hours": 102.09692307692308,
+   "max_hold_hours": 1021.8166666666667,
+   "pct_time_with_inventory": 99.99304557466735,
+   "pct_time_underwater": 93.39793221753442,
+   "avg_exposure_pct": 46.964085320996276,
+   "postonly_rejects": 0,
+   "kill_switch": false,
+   "buy_hold_return_pct": 33.16412999752095,
+   "per_pair": {
+    "BTCEUR": {
+     "hold_return_pct": 25.231436403673023,
+     "open_lots": 1
+    },
+    "ETHEUR": {
+     "hold_return_pct": 49.040845070422534,
+     "open_lots": 1
+    },
+    "SOLEUR": {
+     "hold_return_pct": 36.82619647355164,
+     "open_lots": 0
+    },
+    "XRPEUR": {
+     "hold_return_pct": 34.94360502234518,
+     "open_lots": 0
+    },
+    "DOGEEUR": {
+     "hold_return_pct": 17.037479468418695,
+     "open_lots": 1
+    },
+    "ADAEUR": {
+     "hold_return_pct": 44.83024691358025,
+     "open_lots": 0
+    },
+    "LTCEUR": {
+     "hold_return_pct": 24.239100630655333,
+     "open_lots": 2
+    }
+   },
+   "name": "k=2.5 niv=3 fixed filtro=off",
+   "period": "IS",
+   "params": {
+    "k": 2.5,
+    "levels": 3,
+    "mode": "fixed",
+    "trend": false
+   },
+   "secs": 142
+  },
+  {
+   "days": 59.9,
+   "initial_capital": 50.0,
+   "final_equity": 48.5220821475,
+   "return_pct": -2.955835705,
+   "realized_pnl": 3.342895221112092,
+   "unrealized_pnl": -4.820813073612093,
+   "fees_paid": 2.2541682875,
+   "cycles": 86,
+   "liquidated_lots": 0,
+   "open_lots": 7,
+   "avg_net_bps_per_cycle": 77.88634062351281,
+   "max_drawdown_pct": 11.644708779207905,
+   "avg_hold_hours": 43.755038759689924,
+   "max_hold_hours": 273.5,
+   "pct_time_with_inventory": 99.84352724364547,
+   "pct_time_underwater": 88.87073032210206,
+   "avg_exposure_pct": 47.780449302158814,
+   "postonly_rejects": 0,
+   "kill_switch": false,
+   "buy_hold_return_pct": 3.90640498636783,
+   "per_pair": {
+    "BTCEUR": {
+     "hold_return_pct": 9.131347505853716,
+     "open_lots": 0
+    },
+    "ETHEUR": {
+     "hold_return_pct": 1.48366550430452,
+     "open_lots": 2
+    },
+    "SOLEUR": {
+     "hold_return_pct": 14.248895434462444,
+     "open_lots": 1
+    },
+    "XRPEUR": {
+     "hold_return_pct": -6.994164958208485,
+     "open_lots": 1
+    },
+    "DOGEEUR": {
+     "hold_return_pct": -8.343965297269712,
+     "open_lots": 3
+    },
+    "ADAEUR": {
+     "hold_return_pct": 0.6925945657964837,
+     "open_lots": 0
+    },
+    "LTCEUR": {
+     "hold_return_pct": 17.12646214963584,
+     "open_lots": 0
+    }
+   },
+   "name": "k=2.5 niv=3 fixed filtro=off",
+   "period": "OOS",
+   "params": {
+    "k": 2.5,
+    "levels": 3,
+    "mode": "fixed",
+    "trend": false
+   },
+   "secs": 144
+  },
+  {
+   "days": 59.9,
+   "initial_capital": 50.0,
+   "final_equity": 50.6503123725,
+   "return_pct": 1.300624745,
+   "realized_pnl": 1.8179958028710819,
+   "unrealized_pnl": -1.1676834303710817,
+   "fees_paid": 1.1696602775,
+   "cycles": 44,
+   "liquidated_lots": 0,
+   "open_lots": 6,
+   "avg_net_bps_per_cycle": 84.3253252507522,
+   "max_drawdown_pct": 5.069995434963125,
+   "avg_hold_hours": 126.80037878787878,
+   "max_hold_hours": 960.3666666666667,
+   "pct_time_with_inventory": 99.99652278733367,
+   "pct_time_underwater": 94.32982521210997,
+   "avg_exposure_pct": 39.66030520523357,
+   "postonly_rejects": 0,
+   "kill_switch": false,
+   "buy_hold_return_pct": 33.16412999752095,
+   "per_pair": {
+    "BTCEUR": {
+     "hold_return_pct": 25.231436403673023,
+     "open_lots": 0
+    },
+    "ETHEUR": {
+     "hold_return_pct": 49.040845070422534,
+     "open_lots": 1
+    },
+    "SOLEUR": {
+     "hold_return_pct": 36.82619647355164,
+     "open_lots": 0
+    },
+    "XRPEUR": {
+     "hold_return_pct": 34.94360502234518,
+     "open_lots": 0
+    },
+    "DOGEEUR": {
+     "hold_return_pct": 17.037479468418695,
+     "open_lots": 3
+    },
+    "ADAEUR": {
+     "hold_return_pct": 44.83024691358025,
+     "open_lots": 2
+    },
+    "LTCEUR": {
+     "hold_return_pct": 24.239100630655333,
+     "open_lots": 0
+    }
+   },
+   "name": "k=2.5 niv=3 fixed filtro=on",
+   "period": "IS",
+   "params": {
+    "k": 2.5,
+    "levels": 3,
+    "mode": "fixed",
+    "trend": true
+   },
+   "secs": 153
+  },
+  {
+   "days": 59.9,
+   "initial_capital": 50.0,
+   "final_equity": 49.8091531825,
+   "return_pct": -0.381693635,
+   "realized_pnl": 2.98757574593894,
+   "unrealized_pnl": -3.17842256343894,
+   "fees_paid": 2.055206385,
+   "cycles": 78,
+   "liquidated_lots": 0,
+   "open_lots": 7,
+   "avg_net_bps_per_cycle": 76.50956301982042,
+   "max_drawdown_pct": 7.320273984237399,
+   "avg_hold_hours": 35.615811965811965,
+   "max_hold_hours": 264.93333333333334,
+   "pct_time_with_inventory": 99.85164064582682,
+   "pct_time_underwater": 89.71220603405311,
+   "avg_exposure_pct": 33.07205596988765,
+   "postonly_rejects": 0,
+   "kill_switch": false,
+   "buy_hold_return_pct": 3.90640498636783,
+   "per_pair": {
+    "BTCEUR": {
+     "hold_return_pct": 9.131347505853716,
+     "open_lots": 1
+    },
+    "ETHEUR": {
+     "hold_return_pct": 1.48366550430452,
+     "open_lots": 0
+    },
+    "SOLEUR": {
+     "hold_return_pct": 14.248895434462444,
+     "open_lots": 0
+    },
+    "XRPEUR": {
+     "hold_return_pct": -6.994164958208485,
+     "open_lots": 0
+    },
+    "DOGEEUR": {
+     "hold_return_pct": -8.343965297269712,
+     "open_lots": 3
+    },
+    "ADAEUR": {
+     "hold_return_pct": 0.6925945657964837,
+     "open_lots": 2
+    },
+    "LTCEUR": {
+     "hold_return_pct": 17.12646214963584,
+     "open_lots": 1
+    }
+   },
+   "name": "k=2.5 niv=3 fixed filtro=on",
+   "period": "OOS",
+   "params": {
+    "k": 2.5,
+    "levels": 3,
+    "mode": "fixed",
+    "trend": true
+   },
+   "secs": 154
+  },
+  {
+   "days": 59.9,
+   "initial_capital": 50.0,
+   "final_equity": 50.861899995,
+   "return_pct": 1.72379999,
+   "realized_pnl": 2.42907165252536,
+   "unrealized_pnl": -1.56717165752536,
+   "fees_paid": 1.611559035,
+   "cycles": 105,
+   "liquidated_lots": 0,
+   "open_lots": 8,
+   "avg_net_bps_per_cycle": 79.10650793074076,
+   "max_drawdown_pct": 5.810573494404206,
+   "avg_hold_hours": 83.32095238095239,
+   "max_hold_hours": 1027.25,
+   "pct_time_with_inventory": 99.99304557466735,
+   "pct_time_underwater": 90.77263665445778,
+   "avg_exposure_pct": 37.570790710772634,
+   "postonly_rejects": 0,
+   "kill_switch": false,
+   "buy_hold_return_pct": 33.16412999752095,
+   "per_pair": {
+    "BTCEUR": {
+     "hold_return_pct": 25.231436403673023,
+     "open_lots": 1
+    },
+    "ETHEUR": {
+     "hold_return_pct": 49.040845070422534,
+     "open_lots": 0
+    },
+    "SOLEUR": {
+     "hold_return_pct": 36.82619647355164,
+     "open_lots": 0
+    },
+    "XRPEUR": {
+     "hold_return_pct": 34.94360502234518,
+     "open_lots": 1
+    },
+    "DOGEEUR": {
+     "hold_return_pct": 17.037479468418695,
+     "open_lots": 2
+    },
+    "ADAEUR": {
+     "hold_return_pct": 44.83024691358025,
+     "open_lots": 3
+    },
+    "LTCEUR": {
+     "hold_return_pct": 24.239100630655333,
+     "open_lots": 1
+    }
+   },
+   "name": "k=2.5 niv=5 fixed filtro=off",
+   "period": "IS",
+   "params": {
+    "k": 2.5,
+    "levels": 5,
+    "mode": "fixed",
+    "trend": false
+   },
+   "secs": 151
+  },
+  {
+   "days": 59.9,
+   "initial_capital": 50.0,
+   "final_equity": 50.083479255,
+   "return_pct": 0.16695851,
+   "realized_pnl": 2.9511924446743074,
+   "unrealized_pnl": -2.8677131896743076,
+   "fees_paid": 2.0162560775,
+   "cycles": 130,
+   "liquidated_lots": 0,
+   "open_lots": 10,
+   "avg_net_bps_per_cycle": 76.4450517094325,
+   "max_drawdown_pct": 7.433425675513577,
+   "avg_hold_hours": 41.96846153846153,
+   "max_hold_hours": 486.51666666666665,
+   "pct_time_with_inventory": 99.84352724364547,
+   "pct_time_underwater": 84.71087311798046,
+   "avg_exposure_pct": 35.75056808557667,
+   "postonly_rejects": 0,
+   "kill_switch": false,
+   "buy_hold_return_pct": 3.90640498636783,
+   "per_pair": {
+    "BTCEUR": {
+     "hold_return_pct": 9.131347505853716,
+     "open_lots": 0
+    },
+    "ETHEUR": {
+     "hold_return_pct": 1.48366550430452,
+     "open_lots": 4
+    },
+    "SOLEUR": {
+     "hold_return_pct": 14.248895434462444,
+     "open_lots": 0
+    },
+    "XRPEUR": {
+     "hold_return_pct": -6.994164958208485,
+     "open_lots": 1
+    },
+    "DOGEEUR": {
+     "hold_return_pct": -8.343965297269712,
+     "open_lots": 2
+    },
+    "ADAEUR": {
+     "hold_return_pct": 0.6925945657964837,
+     "open_lots": 1
+    },
+    "LTCEUR": {
+     "hold_return_pct": 17.12646214963584,
+     "open_lots": 2
+    }
+   },
+   "name": "k=2.5 niv=5 fixed filtro=off",
+   "period": "OOS",
+   "params": {
+    "k": 2.5,
+    "levels": 5,
+    "mode": "fixed",
+    "trend": false
+   },
+   "secs": 152
+  },
+  {
+   "days": 59.9,
+   "initial_capital": 50.0,
+   "final_equity": 49.2562415575,
+   "return_pct": -1.487516885,
+   "realized_pnl": 1.956368864515273,
+   "unrealized_pnl": -2.700127307015273,
+   "fees_paid": 1.3719842225,
+   "cycles": 86,
+   "liquidated_lots": 0,
+   "open_lots": 11,
+   "avg_net_bps_per_cycle": 76.42460422261134,
+   "max_drawdown_pct": 7.080138341392884,
+   "avg_hold_hours": 34.63023255813954,
+   "max_hold_hours": 264.93333333333334,
+   "pct_time_with_inventory": 99.85164064582682,
+   "pct_time_underwater": 85.72968462046664,
+   "avg_exposure_pct": 27.474368089131662,
+   "postonly_rejects": 0,
+   "kill_switch": false,
+   "buy_hold_return_pct": 3.90640498636783,
+   "per_pair": {
+    "BTCEUR": {
+     "hold_return_pct": 9.131347505853716,
+     "open_lots": 2
+    },
+    "ETHEUR": {
+     "hold_return_pct": 1.48366550430452,
+     "open_lots": 0
+    },
+    "SOLEUR": {
+     "hold_return_pct": 14.248895434462444,
+     "open_lots": 0
+    },
+    "XRPEUR": {
+     "hold_return_pct": -6.994164958208485,
+     "open_lots": 0
+    },
+    "DOGEEUR": {
+     "hold_return_pct": -8.343965297269712,
+     "open_lots": 5
+    },
+    "ADAEUR": {
+     "hold_return_pct": 0.6925945657964837,
+     "open_lots": 2
+    },
+    "LTCEUR": {
+     "hold_return_pct": 17.12646214963584,
+     "open_lots": 2
+    }
+   },
+   "name": "k=2.5 niv=5 fixed filtro=on",
+   "period": "OOS",
+   "params": {
+    "k": 2.5,
+    "levels": 5,
+    "mode": "fixed",
+    "trend": true
+   },
+   "secs": 160
+  },
+  {
+   "days": 59.9,
+   "initial_capital": 50.0,
+   "final_equity": 50.5834950675,
+   "return_pct": 1.166990135,
+   "realized_pnl": 1.5744652431988904,
+   "unrealized_pnl": -0.9909701756988905,
+   "fees_paid": 1.0061678675,
+   "cycles": 64,
+   "liquidated_lots": 0,
+   "open_lots": 7,
+   "avg_net_bps_per_cycle": 84.0221460731835,
+   "max_drawdown_pct": 3.8204429029853375,
+   "avg_hold_hours": 107.62630208333333,
+   "max_hold_hours": 960.3666666666667,
+   "pct_time_with_inventory": 99.99652278733367,
+   "pct_time_underwater": 93.27738884510177,
+   "avg_exposure_pct": 29.61667427134011,
+   "postonly_rejects": 0,
+   "kill_switch": false,
+   "buy_hold_return_pct": 33.16412999752095,
+   "per_pair": {
+    "BTCEUR": {
+     "hold_return_pct": 25.231436403673023,
+     "open_lots": 0
+    },
+    "ETHEUR": {
+     "hold_return_pct": 49.040845070422534,
+     "open_lots": 1
+    },
+    "SOLEUR": {
+     "hold_return_pct": 36.82619647355164,
+     "open_lots": 0
+    },
+    "XRPEUR": {
+     "hold_return_pct": 34.94360502234518,
+     "open_lots": 0
+    },
+    "DOGEEUR": {
+     "hold_return_pct": 17.037479468418695,
+     "open_lots": 4
+    },
+    "ADAEUR": {
+     "hold_return_pct": 44.83024691358025,
+     "open_lots": 2
+    },
+    "LTCEUR": {
+     "hold_return_pct": 24.239100630655333,
+     "open_lots": 0
+    }
+   },
+   "name": "k=2.5 niv=5 fixed filtro=on",
+   "period": "IS",
+   "params": {
+    "k": 2.5,
+    "levels": 5,
+    "mode": "fixed",
+    "trend": true
+   },
+   "secs": 170
+  },
+  {
+   "days": 59.9,
+   "initial_capital": 50.0,
+   "final_equity": 50.8908531475,
+   "return_pct": 1.781706295,
+   "realized_pnl": 1.438545404433792,
+   "unrealized_pnl": -0.547692256933792,
+   "fees_paid": 0.63831741,
+   "cycles": 23,
+   "liquidated_lots": 0,
+   "open_lots": 5,
+   "avg_net_bps_per_cycle": 126.51823932042987,
+   "max_drawdown_pct": 3.079103405855787,
+   "avg_hold_hours": 140.50144927536232,
+   "max_hold_hours": 960.3666666666667,
+   "pct_time_with_inventory": 99.9860911493347,
+   "pct_time_underwater": 90.53270898048125,
+   "avg_exposure_pct": 23.398098785075142,
+   "postonly_rejects": 0,
+   "kill_switch": false,
+   "buy_hold_return_pct": 33.16412999752095,
+   "per_pair": {
+    "BTCEUR": {
+     "hold_return_pct": 25.231436403673023,
+     "open_lots": 0
+    },
+    "ETHEUR": {
+     "hold_return_pct": 49.040845070422534,
+     "open_lots": 1
+    },
+    "SOLEUR": {
+     "hold_return_pct": 36.82619647355164,
+     "open_lots": 0
+    },
+    "XRPEUR": {
+     "hold_return_pct": 34.94360502234518,
+     "open_lots": 0
+    },
+    "DOGEEUR": {
+     "hold_return_pct": 17.037479468418695,
+     "open_lots": 3
+    },
+    "ADAEUR": {
+     "hold_return_pct": 44.83024691358025,
+     "open_lots": 1
+    },
+    "LTCEUR": {
+     "hold_return_pct": 24.239100630655333,
+     "open_lots": 0
+    }
+   },
+   "name": "k=3.5 niv=3 fixed filtro=on",
+   "period": "IS",
+   "params": {
+    "k": 3.5,
+    "levels": 3,
+    "mode": "fixed",
+    "trend": true
+   },
+   "secs": 117
+  },
+  {
+   "days": 59.9,
+   "initial_capital": 50.0,
+   "final_equity": 49.548458075,
+   "return_pct": -0.90308385,
+   "realized_pnl": 2.1499563158413992,
+   "unrealized_pnl": -2.601498240841399,
+   "fees_paid": 0.9350066925,
+   "cycles": 34,
+   "liquidated_lots": 0,
+   "open_lots": 6,
+   "avg_net_bps_per_cycle": 126.16057818136653,
+   "max_drawdown_pct": 5.883696721370299,
+   "avg_hold_hours": 41.502450980392155,
+   "max_hold_hours": 266.18333333333334,
+   "pct_time_with_inventory": 99.58969366111478,
+   "pct_time_underwater": 89.29378629298654,
+   "avg_exposure_pct": 21.349024285724205,
+   "postonly_rejects": 0,
+   "kill_switch": false,
+   "buy_hold_return_pct": 3.90640498636783,
+   "per_pair": {
+    "BTCEUR": {
+     "hold_return_pct": 9.131347505853716,
+     "open_lots": 0
+    },
+    "ETHEUR": {
+     "hold_return_pct": 1.48366550430452,
+     "open_lots": 0
+    },
+    "SOLEUR": {
+     "hold_return_pct": 14.248895434462444,
+     "open_lots": 0
+    },
+    "XRPEUR": {
+     "hold_return_pct": -6.994164958208485,
+     "open_lots": 0
+    },
+    "DOGEEUR": {
+     "hold_return_pct": -8.343965297269712,
+     "open_lots": 3
+    },
+    "ADAEUR": {
+     "hold_return_pct": 0.6925945657964837,
+     "open_lots": 2
+    },
+    "LTCEUR": {
+     "hold_return_pct": 17.12646214963584,
+     "open_lots": 1
+    }
+   },
+   "name": "k=3.5 niv=3 fixed filtro=on",
+   "period": "OOS",
+   "params": {
+    "k": 3.5,
+    "levels": 3,
+    "mode": "fixed",
+    "trend": true
+   },
+   "secs": 117
+  },
+  {
+   "days": 59.9,
+   "initial_capital": 50.0,
+   "final_equity": 53.231775705,
+   "return_pct": 6.46355141,
+   "realized_pnl": 3.8501142522121645,
+   "unrealized_pnl": -0.6183385472121647,
+   "fees_paid": 1.5358857275,
+   "cycles": 58,
+   "liquidated_lots": 0,
+   "open_lots": 4,
+   "avg_net_bps_per_cycle": 130.89671177799457,
+   "max_drawdown_pct": 3.638273827370262,
+   "avg_hold_hours": 83.36551724137931,
+   "max_hold_hours": 855.9333333333333,
+   "pct_time_with_inventory": 99.99188650377857,
+   "pct_time_underwater": 83.5122166071677,
+   "avg_exposure_pct": 35.13188382661912,
+   "postonly_rejects": 0,
+   "kill_switch": false,
+   "buy_hold_return_pct": 33.16412999752095,
+   "per_pair": {
+    "BTCEUR": {
+     "hold_return_pct": 25.231436403673023,
+     "open_lots": 0
+    },
+    "ETHEUR": {
+     "hold_return_pct": 49.040845070422534,
+     "open_lots": 1
+    },
+    "SOLEUR": {
+     "hold_return_pct": 36.82619647355164,
+     "open_lots": 0
+    },
+    "XRPEUR": {
+     "hold_return_pct": 34.94360502234518,
+     "open_lots": 0
+    },
+    "DOGEEUR": {
+     "hold_return_pct": 17.037479468418695,
+     "open_lots": 1
+    },
+    "ADAEUR": {
+     "hold_return_pct": 44.83024691358025,
+     "open_lots": 1
+    },
+    "LTCEUR": {
+     "hold_return_pct": 24.239100630655333,
+     "open_lots": 1
+    }
+   },
+   "name": "k=3.5 niv=3 fixed filtro=off",
+   "period": "IS",
+   "params": {
+    "k": 3.5,
+    "levels": 3,
+    "mode": "fixed",
+    "trend": false
+   },
+   "secs": 118
+  },
+  {
+   "days": 59.9,
+   "initial_capital": 50.0,
+   "final_equity": 50.277027665,
+   "return_pct": 0.55405533,
+   "realized_pnl": 3.2117271794820708,
+   "unrealized_pnl": -2.934699514482071,
+   "fees_paid": 1.3558527575,
+   "cycles": 50,
+   "liquidated_lots": 0,
+   "open_lots": 7,
+   "avg_net_bps_per_cycle": 128.3985101843842,
+   "max_drawdown_pct": 7.837370828963043,
+   "avg_hold_hours": 49.658,
+   "max_hold_hours": 336.1666666666667,
+   "pct_time_with_inventory": 99.6302606720215,
+   "pct_time_underwater": 66.63189494303232,
+   "avg_exposure_pct": 34.390397959220856,
+   "postonly_rejects": 0,
+   "kill_switch": false,
+   "buy_hold_return_pct": 3.90640498636783,
+   "per_pair": {
+    "BTCEUR": {
+     "hold_return_pct": 9.131347505853716,
+     "open_lots": 0
+    },
+    "ETHEUR": {
+     "hold_return_pct": 1.48366550430452,
+     "open_lots": 3
+    },
+    "SOLEUR": {
+     "hold_return_pct": 14.248895434462444,
+     "open_lots": 3
+    },
+    "XRPEUR": {
+     "hold_return_pct": -6.994164958208485,
+     "open_lots": 0
+    },
+    "DOGEEUR": {
+     "hold_return_pct": -8.343965297269712,
+     "open_lots": 1
+    },
+    "ADAEUR": {
+     "hold_return_pct": 0.6925945657964837,
+     "open_lots": 0
+    },
+    "LTCEUR": {
+     "hold_return_pct": 17.12646214963584,
+     "open_lots": 0
+    }
+   },
+   "name": "k=3.5 niv=3 fixed filtro=off",
+   "period": "OOS",
+   "params": {
+    "k": 3.5,
+    "levels": 3,
+    "mode": "fixed",
+    "trend": false
+   },
+   "secs": 113
+  },
+  {
+   "days": 59.9,
+   "initial_capital": 50.0,
+   "final_equity": 50.1291798825,
+   "return_pct": 0.258359765,
+   "realized_pnl": 0.7721116741543018,
+   "unrealized_pnl": -0.6429317916543018,
+   "fees_paid": 0.3571740525,
+   "cycles": 21,
+   "liquidated_lots": 0,
+   "open_lots": 6,
+   "avg_net_bps_per_cycle": 125.37603982260794,
+   "max_drawdown_pct": 2.8789988668091633,
+   "avg_hold_hours": 103.97460317460317,
+   "max_hold_hours": 706.3,
+   "pct_time_with_inventory": 99.9860911493347,
+   "pct_time_underwater": 89.72599564189346,
+   "avg_exposure_pct": 10.403881484243067,
+   "postonly_rejects": 0,
+   "kill_switch": false,
+   "buy_hold_return_pct": 33.16412999752095,
+   "per_pair": {
+    "BTCEUR": {
+     "hold_return_pct": 25.231436403673023,
+     "open_lots": 0
+    },
+    "ETHEUR": {
+     "hold_return_pct": 49.040845070422534,
+     "open_lots": 1
+    },
+    "SOLEUR": {
+     "hold_return_pct": 36.82619647355164,
+     "open_lots": 0
+    },
+    "XRPEUR": {
+     "hold_return_pct": 34.94360502234518,
+     "open_lots": 0
+    },
+    "DOGEEUR": {
+     "hold_return_pct": 17.037479468418695,
+     "open_lots": 3
+    },
+    "ADAEUR": {
+     "hold_return_pct": 44.83024691358025,
+     "open_lots": 2
+    },
+    "LTCEUR": {
+     "hold_return_pct": 24.239100630655333,
+     "open_lots": 0
+    }
+   },
+   "name": "k=3.5 niv=5 fixed filtro=on",
+   "period": "IS",
+   "params": {
+    "k": 3.5,
+    "levels": 5,
+    "mode": "fixed",
+    "trend": true
+   },
+   "secs": 149
+  },
+  {
+   "days": 59.9,
+   "initial_capital": 50.0,
+   "final_equity": 49.695989455,
+   "return_pct": -0.60802109,
+   "realized_pnl": 1.467667317826274,
+   "unrealized_pnl": -1.771677862826274,
+   "fees_paid": 0.65568703,
+   "cycles": 39,
+   "liquidated_lots": 0,
+   "open_lots": 9,
+   "avg_net_bps_per_cycle": 125.92587720033815,
+   "max_drawdown_pct": 4.541347674570146,
+   "avg_hold_hours": 41.94145299145299,
+   "max_hold_hours": 266.18333333333334,
+   "pct_time_with_inventory": 99.58969366111478,
+   "pct_time_underwater": 88.52533120066762,
+   "avg_exposure_pct": 14.921689361788845,
+   "postonly_rejects": 0,
+   "kill_switch": false,
+   "buy_hold_return_pct": 3.90640498636783,
+   "per_pair": {
+    "BTCEUR": {
+     "hold_return_pct": 9.131347505853716,
+     "open_lots": 0
+    },
+    "ETHEUR": {
+     "hold_return_pct": 1.48366550430452,
+     "open_lots": 0
+    },
+    "SOLEUR": {
+     "hold_return_pct": 14.248895434462444,
+     "open_lots": 0
+    },
+    "XRPEUR": {
+     "hold_return_pct": -6.994164958208485,
+     "open_lots": 0
+    },
+    "DOGEEUR": {
+     "hold_return_pct": -8.343965297269712,
+     "open_lots": 5
+    },
+    "ADAEUR": {
+     "hold_return_pct": 0.6925945657964837,
+     "open_lots": 3
+    },
+    "LTCEUR": {
+     "hold_return_pct": 17.12646214963584,
+     "open_lots": 1
+    }
+   },
+   "name": "k=3.5 niv=5 fixed filtro=on",
+   "period": "OOS",
+   "params": {
+    "k": 3.5,
+    "levels": 5,
+    "mode": "fixed",
+    "trend": true
+   },
+   "secs": 148
+  },
+  {
+   "days": 59.9,
+   "initial_capital": 50.0,
+   "final_equity": 49.6157331975,
+   "return_pct": -0.768533605,
+   "realized_pnl": 2.7763795418605643,
+   "unrealized_pnl": -3.1606463443605644,
+   "fees_paid": 1.870502935,
+   "cycles": 71,
+   "liquidated_lots": 0,
+   "open_lots": 7,
+   "avg_net_bps_per_cycle": 78.43732350493823,
+   "max_drawdown_pct": 7.226561905340284,
+   "avg_hold_hours": 40.20469483568075,
+   "max_hold_hours": 264.93333333333334,
+   "pct_time_with_inventory": 99.85164064582682,
+   "pct_time_underwater": 89.13035919190514,
+   "avg_exposure_pct": 33.41967451025628,
+   "postonly_rejects": 0,
+   "kill_switch": false,
+   "buy_hold_return_pct": 3.90640498636783,
+   "per_pair": {
+    "BTCEUR": {
+     "hold_return_pct": 9.131347505853716,
+     "open_lots": 1
+    },
+    "ETHEUR": {
+     "hold_return_pct": 1.48366550430452,
+     "open_lots": 0
+    },
+    "SOLEUR": {
+     "hold_return_pct": 14.248895434462444,
+     "open_lots": 0
+    },
+    "XRPEUR": {
+     "hold_return_pct": -6.994164958208485,
+     "open_lots": 0
+    },
+    "DOGEEUR": {
+     "hold_return_pct": -8.343965297269712,
+     "open_lots": 3
+    },
+    "ADAEUR": {
+     "hold_return_pct": 0.6925945657964837,
+     "open_lots": 2
+    },
+    "LTCEUR": {
+     "hold_return_pct": 17.12646214963584,
+     "open_lots": 1
+    }
+   },
+   "name": "k=2.5 niv=3 adapt filtro=on",
+   "period": "OOS",
+   "params": {
+    "k": 2.5,
+    "levels": 3,
+    "mode": "adaptive",
+    "trend": true
+   },
+   "secs": 416
+  },
+  {
+   "days": 59.9,
+   "initial_capital": 50.0,
+   "final_equity": 51.67781425,
+   "return_pct": 3.3556285,
+   "realized_pnl": 2.0175870776690883,
+   "unrealized_pnl": -0.3397728276690884,
+   "fees_paid": 1.262914775,
+   "cycles": 49,
+   "liquidated_lots": 0,
+   "open_lots": 3,
+   "avg_net_bps_per_cycle": 83.43789162658399,
+   "max_drawdown_pct": 3.9574991372684756,
+   "avg_hold_hours": 98.79183673469389,
+   "max_hold_hours": 960.3666666666667,
+   "pct_time_with_inventory": 99.99652278733367,
+   "pct_time_underwater": 93.16032268533543,
+   "avg_exposure_pct": 34.18911685575086,
+   "postonly_rejects": 0,
+   "kill_switch": false,
+   "buy_hold_return_pct": 33.16412999752095,
+   "per_pair": {
+    "BTCEUR": {
+     "hold_return_pct": 25.231436403673023,
+     "open_lots": 0
+    },
+    "ETHEUR": {
+     "hold_return_pct": 49.040845070422534,
+     "open_lots": 1
+    },
+    "SOLEUR": {
+     "hold_return_pct": 36.82619647355164,
+     "open_lots": 0
+    },
+    "XRPEUR": {
+     "hold_return_pct": 34.94360502234518,
+     "open_lots": 0
+    },
+    "DOGEEUR": {
+     "hold_return_pct": 17.037479468418695,
+     "open_lots": 2
+    },
+    "ADAEUR": {
+     "hold_return_pct": 44.83024691358025,
+     "open_lots": 0
+    },
+    "LTCEUR": {
+     "hold_return_pct": 24.239100630655333,
+     "open_lots": 0
+    }
+   },
+   "name": "k=2.5 niv=3 adapt filtro=on",
+   "period": "IS",
+   "params": {
+    "k": 2.5,
+    "levels": 3,
+    "mode": "adaptive",
+    "trend": true
+   },
+   "secs": 429
+  },
+  {
+   "days": 59.9,
+   "initial_capital": 50.0,
+   "final_equity": 52.5066901225,
+   "return_pct": 5.013380245,
+   "realized_pnl": 2.6068646396613575,
+   "unrealized_pnl": -0.1001745171613574,
+   "fees_paid": 1.0516615525,
+   "cycles": 68,
+   "liquidated_lots": 0,
+   "open_lots": 5,
+   "avg_net_bps_per_cycle": 129.7631384395548,
+   "max_drawdown_pct": 2.9965422621900193,
+   "avg_hold_hours": 99.63333333333333,
+   "max_hold_hours": 1027.2666666666667,
+   "pct_time_with_inventory": 99.99188650377857,
+   "pct_time_underwater": 86.71125226018823,
+   "avg_exposure_pct": 28.979346810549096,
+   "postonly_rejects": 0,
+   "kill_switch": false,
+   "buy_hold_return_pct": 33.16412999752095,
+   "per_pair": {
+    "BTCEUR": {
+     "hold_return_pct": 25.231436403673023,
+     "open_lots": 1
+    },
+    "ETHEUR": {
+     "hold_return_pct": 49.040845070422534,
+     "open_lots": 1
+    },
+    "SOLEUR": {
+     "hold_return_pct": 36.82619647355164,
+     "open_lots": 0
+    },
+    "XRPEUR": {
+     "hold_return_pct": 34.94360502234518,
+     "open_lots": 0
+    },
+    "DOGEEUR": {
+     "hold_return_pct": 17.037479468418695,
+     "open_lots": 0
+    },
+    "ADAEUR": {
+     "hold_return_pct": 44.83024691358025,
+     "open_lots": 2
+    },
+    "LTCEUR": {
+     "hold_return_pct": 24.239100630655333,
+     "open_lots": 1
+    }
+   },
+   "name": "k=3.5 niv=5 fixed filtro=off",
+   "period": "IS",
+   "params": {
+    "k": 3.5,
+    "levels": 5,
+    "mode": "fixed",
+    "trend": false
+   },
+   "secs": 153
+  },
+  {
+   "days": 59.9,
+   "initial_capital": 50.0,
+   "final_equity": 51.5412133175,
+   "return_pct": 3.082426635,
+   "realized_pnl": 2.8036325288748203,
+   "unrealized_pnl": -1.26241921137482,
+   "fees_paid": 1.763277025,
+   "cycles": 68,
+   "liquidated_lots": 0,
+   "open_lots": 5,
+   "avg_net_bps_per_cycle": 83.08596606487363,
+   "max_drawdown_pct": 5.401271027815992,
+   "avg_hold_hours": 104.81200980392157,
+   "max_hold_hours": 1021.85,
+   "pct_time_with_inventory": 99.99304557466735,
+   "pct_time_underwater": 89.88594742454448,
+   "avg_exposure_pct": 49.754968043421165,
+   "postonly_rejects": 0,
+   "kill_switch": false,
+   "buy_hold_return_pct": 33.16412999752095,
+   "per_pair": {
+    "BTCEUR": {
+     "hold_return_pct": 25.231436403673023,
+     "open_lots": 1
+    },
+    "ETHEUR": {
+     "hold_return_pct": 49.040845070422534,
+     "open_lots": 0
+    },
+    "SOLEUR": {
+     "hold_return_pct": 36.82619647355164,
+     "open_lots": 0
+    },
+    "XRPEUR": {
+     "hold_return_pct": 34.94360502234518,
+     "open_lots": 0
+    },
+    "DOGEEUR": {
+     "hold_return_pct": 17.037479468418695,
+     "open_lots": 1
+    },
+    "ADAEUR": {
+     "hold_return_pct": 44.83024691358025,
+     "open_lots": 2
+    },
+    "LTCEUR": {
+     "hold_return_pct": 24.239100630655333,
+     "open_lots": 1
+    }
+   },
+   "name": "k=2.5 niv=3 adapt filtro=off",
+   "period": "IS",
+   "params": {
+    "k": 2.5,
+    "levels": 3,
+    "mode": "adaptive",
+    "trend": false
+   },
+   "secs": 452
+  },
+  {
+   "days": 59.9,
+   "initial_capital": 50.0,
+   "final_equity": 48.299079455,
+   "return_pct": -3.40184109,
+   "realized_pnl": 3.0801379632114565,
+   "unrealized_pnl": -4.781058508211457,
+   "fees_paid": 2.000363685,
+   "cycles": 76,
+   "liquidated_lots": 0,
+   "open_lots": 7,
+   "avg_net_bps_per_cycle": 81.39707406612008,
+   "max_drawdown_pct": 11.45186819910068,
+   "avg_hold_hours": 57.305263157894736,
+   "max_hold_hours": 337.56666666666666,
+   "pct_time_with_inventory": 99.84352724364547,
+   "pct_time_underwater": 92.02104848337332,
+   "avg_exposure_pct": 51.41992299927067,
+   "postonly_rejects": 0,
+   "kill_switch": false,
+   "buy_hold_return_pct": 3.90640498636783,
+   "per_pair": {
+    "BTCEUR": {
+     "hold_return_pct": 9.131347505853716,
+     "open_lots": 0
+    },
+    "ETHEUR": {
+     "hold_return_pct": 1.48366550430452,
+     "open_lots": 1
+    },
+    "SOLEUR": {
+     "hold_return_pct": 14.248895434462444,
+     "open_lots": 2
+    },
+    "XRPEUR": {
+     "hold_return_pct": -6.994164958208485,
+     "open_lots": 1
+    },
+    "DOGEEUR": {
+     "hold_return_pct": -8.343965297269712,
+     "open_lots": 3
+    },
+    "ADAEUR": {
+     "hold_return_pct": 0.6925945657964837,
+     "open_lots": 0
+    },
+    "LTCEUR": {
+     "hold_return_pct": 17.12646214963584,
+     "open_lots": 0
+    }
+   },
+   "name": "k=2.5 niv=3 adapt filtro=off",
+   "period": "OOS",
+   "params": {
+    "k": 2.5,
+    "levels": 3,
+    "mode": "adaptive",
+    "trend": false
+   },
+   "secs": 441
+  },
+  {
+   "days": 59.9,
+   "initial_capital": 50.0,
+   "final_equity": 49.2225622225,
+   "return_pct": -1.554875555,
+   "realized_pnl": 1.8910675792867464,
+   "unrealized_pnl": -2.6685053567867465,
+   "fees_paid": 1.3083064875,
+   "cycles": 82,
+   "liquidated_lots": 0,
+   "open_lots": 11,
+   "avg_net_bps_per_cycle": 77.56279604971539,
+   "max_drawdown_pct": 6.997721415258646,
+   "avg_hold_hours": 35.167276422764225,
+   "max_hold_hours": 264.93333333333334,
+   "pct_time_with_inventory": 99.85164064582682,
+   "pct_time_underwater": 82.89115291444998,
+   "avg_exposure_pct": 27.08226229473581,
+   "postonly_rejects": 0,
+   "kill_switch": false,
+   "buy_hold_return_pct": 3.90640498636783,
+   "per_pair": {
+    "BTCEUR": {
+     "hold_return_pct": 9.131347505853716,
+     "open_lots": 2
+    },
+    "ETHEUR": {
+     "hold_return_pct": 1.48366550430452,
+     "open_lots": 0
+    },
+    "SOLEUR": {
+     "hold_return_pct": 14.248895434462444,
+     "open_lots": 0
+    },
+    "XRPEUR": {
+     "hold_return_pct": -6.994164958208485,
+     "open_lots": 0
+    },
+    "DOGEEUR": {
+     "hold_return_pct": -8.343965297269712,
+     "open_lots": 5
+    },
+    "ADAEUR": {
+     "hold_return_pct": 0.6925945657964837,
+     "open_lots": 2
+    },
+    "LTCEUR": {
+     "hold_return_pct": 17.12646214963584,
+     "open_lots": 2
+    }
+   },
+   "name": "k=2.5 niv=5 adapt filtro=on",
+   "period": "OOS",
+   "params": {
+    "k": 2.5,
+    "levels": 5,
+    "mode": "adaptive",
+    "trend": true
+   },
+   "secs": 430
+  },
+  {
+   "days": 59.9,
+   "initial_capital": 50.0,
+   "final_equity": 50.89510419,
+   "return_pct": 1.79020838,
+   "realized_pnl": 1.4541296414336706,
+   "unrealized_pnl": -0.5590254514336707,
+   "fees_paid": 0.9093259675,
+   "cycles": 58,
+   "liquidated_lots": 0,
+   "open_lots": 6,
+   "avg_net_bps_per_cycle": 85.61715806577718,
+   "max_drawdown_pct": 2.5756147250007655,
+   "avg_hold_hours": 109.8103448275862,
+   "max_hold_hours": 960.3666666666667,
+   "pct_time_with_inventory": 99.99652278733367,
+   "pct_time_underwater": 91.76016505169456,
+   "avg_exposure_pct": 27.613359838423683,
+   "postonly_rejects": 0,
+   "kill_switch": false,
+   "buy_hold_return_pct": 33.16412999752095,
+   "per_pair": {
+    "BTCEUR": {
+     "hold_return_pct": 25.231436403673023,
+     "open_lots": 0
+    },
+    "ETHEUR": {
+     "hold_return_pct": 49.040845070422534,
+     "open_lots": 2
+    },
+    "SOLEUR": {
+     "hold_return_pct": 36.82619647355164,
+     "open_lots": 0
+    },
+    "XRPEUR": {
+     "hold_return_pct": 34.94360502234518,
+     "open_lots": 1
+    },
+    "DOGEEUR": {
+     "hold_return_pct": 17.037479468418695,
+     "open_lots": 2
+    },
+    "ADAEUR": {
+     "hold_return_pct": 44.83024691358025,
+     "open_lots": 1
+    },
+    "LTCEUR": {
+     "hold_return_pct": 24.239100630655333,
+     "open_lots": 0
+    }
+   },
+   "name": "k=2.5 niv=5 adapt filtro=on",
+   "period": "IS",
+   "params": {
+    "k": 2.5,
+    "levels": 5,
+    "mode": "adaptive",
+    "trend": true
+   },
+   "secs": 445
+  },
+  {
+   "days": 59.9,
+   "initial_capital": 50.0,
+   "final_equity": 52.3006521375,
+   "return_pct": 4.601304275,
+   "realized_pnl": 2.595346013080269,
+   "unrealized_pnl": -0.29469387558026894,
+   "fees_paid": 1.6158831575,
+   "cycles": 107,
+   "liquidated_lots": 0,
+   "open_lots": 4,
+   "avg_net_bps_per_cycle": 82.09892961672546,
+   "max_drawdown_pct": 4.19703226582503,
+   "avg_hold_hours": 68.74127725856698,
+   "max_hold_hours": 1021.8166666666667,
+   "pct_time_with_inventory": 99.99304557466735,
+   "pct_time_underwater": 89.43159163614446,
+   "avg_exposure_pct": 30.93331615166514,
+   "postonly_rejects": 0,
+   "kill_switch": false,
+   "buy_hold_return_pct": 33.16412999752095,
+   "per_pair": {
+    "BTCEUR": {
+     "hold_return_pct": 25.231436403673023,
+     "open_lots": 1
+    },
+    "ETHEUR": {
+     "hold_return_pct": 49.040845070422534,
+     "open_lots": 0
+    },
+    "SOLEUR": {
+     "hold_return_pct": 36.82619647355164,
+     "open_lots": 0
+    },
+    "XRPEUR": {
+     "hold_return_pct": 34.94360502234518,
+     "open_lots": 1
+    },
+    "DOGEEUR": {
+     "hold_return_pct": 17.037479468418695,
+     "open_lots": 1
+    },
+    "ADAEUR": {
+     "hold_return_pct": 44.83024691358025,
+     "open_lots": 1
+    },
+    "LTCEUR": {
+     "hold_return_pct": 24.239100630655333,
+     "open_lots": 0
+    }
+   },
+   "name": "k=2.5 niv=5 adapt filtro=off",
+   "period": "IS",
+   "params": {
+    "k": 2.5,
+    "levels": 5,
+    "mode": "adaptive",
+    "trend": false
+   },
+   "secs": 451
+  },
+  {
+   "days": 59.9,
+   "initial_capital": 50.0,
+   "final_equity": 50.0887798525,
+   "return_pct": 0.177559705,
+   "realized_pnl": 2.2581519999062745,
+   "unrealized_pnl": -2.1693721474062744,
+   "fees_paid": 0.95474618,
+   "cycles": 59,
+   "liquidated_lots": 0,
+   "open_lots": 10,
+   "avg_net_bps_per_cycle": 129.6598686766902,
+   "max_drawdown_pct": 6.328355604860947,
+   "avg_hold_hours": 66.48361581920904,
+   "max_hold_hours": 646.9666666666667,
+   "pct_time_with_inventory": 99.6302606720215,
+   "pct_time_underwater": 86.13651378698842,
+   "avg_exposure_pct": 29.468003474201982,
+   "postonly_rejects": 0,
+   "kill_switch": false,
+   "buy_hold_return_pct": 3.90640498636783,
+   "per_pair": {
+    "BTCEUR": {
+     "hold_return_pct": 9.131347505853716,
+     "open_lots": 0
+    },
+    "ETHEUR": {
+     "hold_return_pct": 1.48366550430452,
+     "open_lots": 3
+    },
+    "SOLEUR": {
+     "hold_return_pct": 14.248895434462444,
+     "open_lots": 1
+    },
+    "XRPEUR": {
+     "hold_return_pct": -6.994164958208485,
+     "open_lots": 4
+    },
+    "DOGEEUR": {
+     "hold_return_pct": -8.343965297269712,
+     "open_lots": 2
+    },
+    "ADAEUR": {
+     "hold_return_pct": 0.6925945657964837,
+     "open_lots": 0
+    },
+    "LTCEUR": {
+     "hold_return_pct": 17.12646214963584,
+     "open_lots": 0
+    }
+   },
+   "name": "k=3.5 niv=5 fixed filtro=off",
+   "period": "OOS",
+   "params": {
+    "k": 3.5,
+    "levels": 5,
+    "mode": "fixed",
+    "trend": false
+   },
+   "secs": 161
+  },
+  {
+   "days": 59.9,
+   "initial_capital": 50.0,
+   "final_equity": 49.45090868,
+   "return_pct": -1.09818264,
+   "realized_pnl": 0.40306497316801054,
+   "unrealized_pnl": -0.9521562931680105,
+   "fees_paid": 0.12617016,
+   "cycles": 4,
+   "liquidated_lots": 0,
+   "open_lots": 2,
+   "avg_net_bps_per_cycle": 201.59360013906328,
+   "max_drawdown_pct": 3.0387001472724946,
+   "avg_hold_hours": 71.0,
+   "max_hold_hours": 193.15,
+   "pct_time_with_inventory": 99.9860911493347,
+   "pct_time_underwater": 26.63544902406231,
+   "avg_exposure_pct": 2.6475667994155367,
+   "postonly_rejects": 0,
+   "kill_switch": false,
+   "buy_hold_return_pct": 33.16412999752095,
+   "per_pair": {
+    "BTCEUR": {
+     "hold_return_pct": 25.231436403673023,
+     "open_lots": 0
+    },
+    "ETHEUR": {
+     "hold_return_pct": 49.040845070422534,
+     "open_lots": 0
+    },
+    "SOLEUR": {
+     "hold_return_pct": 36.82619647355164,
+     "open_lots": 0
+    },
+    "XRPEUR": {
+     "hold_return_pct": 34.94360502234518,
+     "open_lots": 0
+    },
+    "DOGEEUR": {
+     "hold_return_pct": 17.037479468418695,
+     "open_lots": 1
+    },
+    "ADAEUR": {
+     "hold_return_pct": 44.83024691358025,
+     "open_lots": 1
+    },
+    "LTCEUR": {
+     "hold_return_pct": 24.239100630655333,
+     "open_lots": 0
+    }
+   },
+   "name": "k=5.0 niv=3 fixed filtro=on",
+   "period": "IS",
+   "params": {
+    "k": 5.0,
+    "levels": 3,
+    "mode": "fixed",
+    "trend": true
+   },
+   "secs": 135
+  },
+  {
+   "days": 59.9,
+   "initial_capital": 50.0,
+   "final_equity": 50.6498686475,
+   "return_pct": 1.299737295,
+   "realized_pnl": 1.2025208244755752,
+   "unrealized_pnl": -0.5526521769755751,
+   "fees_paid": 0.3167224875,
+   "cycles": 12,
+   "liquidated_lots": 0,
+   "open_lots": 1,
+   "avg_net_bps_per_cycle": 200.0045948407272,
+   "max_drawdown_pct": 2.0568632690367257,
+   "avg_hold_hours": 89.61527777777779,
+   "max_hold_hours": 266.18333333333334,
+   "pct_time_with_inventory": 98.4445448960905,
+   "pct_time_underwater": 53.79533363468827,
+   "avg_exposure_pct": 8.923278520403274,
+   "postonly_rejects": 0,
+   "kill_switch": false,
+   "buy_hold_return_pct": 3.90640498636783,
+   "per_pair": {
+    "BTCEUR": {
+     "hold_return_pct": 9.131347505853716,
+     "open_lots": 0
+    },
+    "ETHEUR": {
+     "hold_return_pct": 1.48366550430452,
+     "open_lots": 0
+    },
+    "SOLEUR": {
+     "hold_return_pct": 14.248895434462444,
+     "open_lots": 0
+    },
+    "XRPEUR": {
+     "hold_return_pct": -6.994164958208485,
+     "open_lots": 0
+    },
+    "DOGEEUR": {
+     "hold_return_pct": -8.343965297269712,
+     "open_lots": 0
+    },
+    "ADAEUR": {
+     "hold_return_pct": 0.6925945657964837,
+     "open_lots": 1
+    },
+    "LTCEUR": {
+     "hold_return_pct": 17.12646214963584,
+     "open_lots": 0
+    }
+   },
+   "name": "k=5.0 niv=3 fixed filtro=on",
+   "period": "OOS",
+   "params": {
+    "k": 5.0,
+    "levels": 3,
+    "mode": "fixed",
+    "trend": true
+   },
+   "secs": 135
+  },
+  {
+   "days": 59.9,
+   "initial_capital": 50.0,
+   "final_equity": 49.49926526,
+   "return_pct": -1.00146948,
+   "realized_pnl": 2.093866680247732,
+   "unrealized_pnl": -2.594601420247732,
+   "fees_paid": 0.90927838,
+   "cycles": 33,
+   "liquidated_lots": 0,
+   "open_lots": 6,
+   "avg_net_bps_per_cycle": 126.6523424157832,
+   "max_drawdown_pct": 5.869451440500164,
+   "avg_hold_hours": 42.73434343434344,
+   "max_hold_hours": 266.18333333333334,
+   "pct_time_with_inventory": 99.58969366111478,
+   "pct_time_underwater": 89.0480661126372,
+   "avg_exposure_pct": 21.345041295008816,
+   "postonly_rejects": 0,
+   "kill_switch": false,
+   "buy_hold_return_pct": 3.90640498636783,
+   "per_pair": {
+    "BTCEUR": {
+     "hold_return_pct": 9.131347505853716,
+     "open_lots": 0
+    },
+    "ETHEUR": {
+     "hold_return_pct": 1.48366550430452,
+     "open_lots": 0
+    },
+    "SOLEUR": {
+     "hold_return_pct": 14.248895434462444,
+     "open_lots": 0
+    },
+    "XRPEUR": {
+     "hold_return_pct": -6.994164958208485,
+     "open_lots": 0
+    },
+    "DOGEEUR": {
+     "hold_return_pct": -8.343965297269712,
+     "open_lots": 3
+    },
+    "ADAEUR": {
+     "hold_return_pct": 0.6925945657964837,
+     "open_lots": 2
+    },
+    "LTCEUR": {
+     "hold_return_pct": 17.12646214963584,
+     "open_lots": 1
+    }
+   },
+   "name": "k=3.5 niv=3 adapt filtro=on",
+   "period": "OOS",
+   "params": {
+    "k": 3.5,
+    "levels": 3,
+    "mode": "adaptive",
+    "trend": true
+   },
+   "secs": 418
+  },
+  {
+   "days": 59.9,
+   "initial_capital": 50.0,
+   "final_equity": 49.71656218,
+   "return_pct": -0.56687564,
+   "realized_pnl": 2.41958916799259,
+   "unrealized_pnl": -2.7030269879925894,
+   "fees_paid": 1.55764233,
+   "cycles": 100,
+   "liquidated_lots": 0,
+   "open_lots": 10,
+   "avg_net_bps_per_cycle": 81.92301947315474,
+   "max_drawdown_pct": 7.45836061751372,
+   "avg_hold_hours": 49.21866666666667,
+   "max_hold_hours": 486.51666666666665,
+   "pct_time_with_inventory": 99.84352724364547,
+   "pct_time_underwater": 82.731202985732,
+   "avg_exposure_pct": 34.59412303705417,
+   "postonly_rejects": 0,
+   "kill_switch": false,
+   "buy_hold_return_pct": 3.90640498636783,
+   "per_pair": {
+    "BTCEUR": {
+     "hold_return_pct": 9.131347505853716,
+     "open_lots": 0
+    },
+    "ETHEUR": {
+     "hold_return_pct": 1.48366550430452,
+     "open_lots": 2
+    },
+    "SOLEUR": {
+     "hold_return_pct": 14.248895434462444,
+     "open_lots": 2
+    },
+    "XRPEUR": {
+     "hold_return_pct": -6.994164958208485,
+     "open_lots": 3
+    },
+    "DOGEEUR": {
+     "hold_return_pct": -8.343965297269712,
+     "open_lots": 2
+    },
+    "ADAEUR": {
+     "hold_return_pct": 0.6925945657964837,
+     "open_lots": 0
+    },
+    "LTCEUR": {
+     "hold_return_pct": 17.12646214963584,
+     "open_lots": 1
+    }
+   },
+   "name": "k=2.5 niv=5 adapt filtro=off",
+   "period": "OOS",
+   "params": {
+    "k": 2.5,
+    "levels": 5,
+    "mode": "adaptive",
+    "trend": false
+   },
+   "secs": 469
+  },
+  {
+   "days": 59.9,
+   "initial_capital": 50.0,
+   "final_equity": 51.1973707075,
+   "return_pct": 2.394741415,
+   "realized_pnl": 1.3734588275362682,
+   "unrealized_pnl": -0.17608812003626817,
+   "fees_paid": 0.58744319,
+   "cycles": 22,
+   "liquidated_lots": 0,
+   "open_lots": 3,
+   "avg_net_bps_per_cycle": 126.399319507661,
+   "max_drawdown_pct": 2.6577435069772446,
+   "avg_hold_hours": 146.05833333333334,
+   "max_hold_hours": 960.3666666666667,
+   "pct_time_with_inventory": 99.9860911493347,
+   "pct_time_underwater": 90.5257545551486,
+   "avg_exposure_pct": 22.846772047514516,
+   "postonly_rejects": 0,
+   "kill_switch": false,
+   "buy_hold_return_pct": 33.16412999752095,
+   "per_pair": {
+    "BTCEUR": {
+     "hold_return_pct": 25.231436403673023,
+     "open_lots": 0
+    },
+    "ETHEUR": {
+     "hold_return_pct": 49.040845070422534,
+     "open_lots": 1
+    },
+    "SOLEUR": {
+     "hold_return_pct": 36.82619647355164,
+     "open_lots": 0
+    },
+    "XRPEUR": {
+     "hold_return_pct": 34.94360502234518,
+     "open_lots": 0
+    },
+    "DOGEEUR": {
+     "hold_return_pct": 17.037479468418695,
+     "open_lots": 2
+    },
+    "ADAEUR": {
+     "hold_return_pct": 44.83024691358025,
+     "open_lots": 0
+    },
+    "LTCEUR": {
+     "hold_return_pct": 24.239100630655333,
+     "open_lots": 0
+    }
+   },
+   "name": "k=3.5 niv=3 adapt filtro=on",
+   "period": "IS",
+   "params": {
+    "k": 3.5,
+    "levels": 3,
+    "mode": "adaptive",
+    "trend": true
+   },
+   "secs": 431
+  },
+  {
+   "days": 59.9,
+   "initial_capital": 50.0,
+   "final_equity": 52.5658519375,
+   "return_pct": 5.131703875,
+   "realized_pnl": 2.951223247620021,
+   "unrealized_pnl": -0.3853713101200213,
+   "fees_paid": 0.74230589,
+   "cycles": 28,
+   "liquidated_lots": 0,
+   "open_lots": 3,
+   "avg_net_bps_per_cycle": 213.04094679979391,
+   "max_drawdown_pct": 3.206361308047405,
+   "avg_hold_hours": 144.8607142857143,
+   "max_hold_hours": 1026.7666666666667,
+   "pct_time_with_inventory": 99.99188650377857,
+   "pct_time_underwater": 86.79934164773518,
+   "avg_exposure_pct": 29.13894700440637,
+   "postonly_rejects": 0,
+   "kill_switch": false,
+   "buy_hold_return_pct": 33.16412999752095,
+   "per_pair": {
+    "BTCEUR": {
+     "hold_return_pct": 25.231436403673023,
+     "open_lots": 1
+    },
+    "ETHEUR": {
+     "hold_return_pct": 49.040845070422534,
+     "open_lots": 0
+    },
+    "SOLEUR": {
+     "hold_return_pct": 36.82619647355164,
+     "open_lots": 0
+    },
+    "XRPEUR": {
+     "hold_return_pct": 34.94360502234518,
+     "open_lots": 1
+    },
+    "DOGEEUR": {
+     "hold_return_pct": 17.037479468418695,
+     "open_lots": 0
+    },
+    "ADAEUR": {
+     "hold_return_pct": 44.83024691358025,
+     "open_lots": 1
+    },
+    "LTCEUR": {
+     "hold_return_pct": 24.239100630655333,
+     "open_lots": 0
+    }
+   },
+   "name": "k=5.0 niv=3 fixed filtro=off",
+   "period": "IS",
+   "params": {
+    "k": 5.0,
+    "levels": 3,
+    "mode": "fixed",
+    "trend": false
+   },
+   "secs": 142
+  },
+  {
+   "days": 59.9,
+   "initial_capital": 50.0,
+   "final_equity": 51.72523038,
+   "return_pct": 3.45046076,
+   "realized_pnl": 3.8342243813846406,
+   "unrealized_pnl": -2.108994001384641,
+   "fees_paid": 1.0290180975,
+   "cycles": 37,
+   "liquidated_lots": 0,
+   "open_lots": 6,
+   "avg_net_bps_per_cycle": 204.3366676294099,
+   "max_drawdown_pct": 6.164440665602439,
+   "avg_hold_hours": 40.48783783783784,
+   "max_hold_hours": 163.7,
+   "pct_time_with_inventory": 98.2915493120994,
+   "pct_time_underwater": 47.22463692525238,
+   "avg_exposure_pct": 23.89938175236354,
+   "postonly_rejects": 0,
+   "kill_switch": false,
+   "buy_hold_return_pct": 3.90640498636783,
+   "per_pair": {
+    "BTCEUR": {
+     "hold_return_pct": 9.131347505853716,
+     "open_lots": 0
+    },
+    "ETHEUR": {
+     "hold_return_pct": 1.48366550430452,
+     "open_lots": 1
+    },
+    "SOLEUR": {
+     "hold_return_pct": 14.248895434462444,
+     "open_lots": 3
+    },
+    "XRPEUR": {
+     "hold_return_pct": -6.994164958208485,
+     "open_lots": 1
+    },
+    "DOGEEUR": {
+     "hold_return_pct": -8.343965297269712,
+     "open_lots": 1
+    },
+    "ADAEUR": {
+     "hold_return_pct": 0.6925945657964837,
+     "open_lots": 0
+    },
+    "LTCEUR": {
+     "hold_return_pct": 17.12646214963584,
+     "open_lots": 0
+    }
+   },
+   "name": "k=5.0 niv=3 fixed filtro=off",
+   "period": "OOS",
+   "params": {
+    "k": 5.0,
+    "levels": 3,
+    "mode": "fixed",
+    "trend": false
+   },
+   "secs": 144
+  },
+  {
+   "days": 59.9,
+   "initial_capital": 50.0,
+   "final_equity": 54.229610135,
+   "return_pct": 8.45922027,
+   "realized_pnl": 4.156493728380273,
+   "unrealized_pnl": 0.07311640661972701,
+   "fees_paid": 1.601962845,
+   "cycles": 62,
+   "liquidated_lots": 0,
+   "open_lots": 1,
+   "avg_net_bps_per_cycle": 131.91813407299279,
+   "max_drawdown_pct": 2.1449770493509184,
+   "avg_hold_hours": 80.06559139784946,
+   "max_hold_hours": 855.9333333333333,
+   "pct_time_with_inventory": 99.99188650377857,
+   "pct_time_underwater": 83.14015485187075,
+   "avg_exposure_pct": 35.04094718332404,
+   "postonly_rejects": 0,
+   "kill_switch": false,
+   "buy_hold_return_pct": 33.16412999752095,
+   "per_pair": {
+    "BTCEUR": {
+     "hold_return_pct": 25.231436403673023,
+     "open_lots": 0
+    },
+    "ETHEUR": {
+     "hold_return_pct": 49.040845070422534,
+     "open_lots": 1
+    },
+    "SOLEUR": {
+     "hold_return_pct": 36.82619647355164,
+     "open_lots": 0
+    },
+    "XRPEUR": {
+     "hold_return_pct": 34.94360502234518,
+     "open_lots": 0
+    },
+    "DOGEEUR": {
+     "hold_return_pct": 17.037479468418695,
+     "open_lots": 0
+    },
+    "ADAEUR": {
+     "hold_return_pct": 44.83024691358025,
+     "open_lots": 0
+    },
+    "LTCEUR": {
+     "hold_return_pct": 24.239100630655333,
+     "open_lots": 0
+    }
+   },
+   "name": "k=3.5 niv=3 adapt filtro=off",
+   "period": "IS",
+   "params": {
+    "k": 3.5,
+    "levels": 3,
+    "mode": "adaptive",
+    "trend": false
+   },
+   "secs": 454
+  },
+  {
+   "days": 59.9,
+   "initial_capital": 50.0,
+   "final_equity": 51.0609831425,
+   "return_pct": 2.121966285,
+   "realized_pnl": 3.7820196553080097,
+   "unrealized_pnl": -2.72103651280801,
+   "fees_paid": 1.593399555,
+   "cycles": 59,
+   "liquidated_lots": 0,
+   "open_lots": 7,
+   "avg_net_bps_per_cycle": 126.92745578480461,
+   "max_drawdown_pct": 7.557221031899324,
+   "avg_hold_hours": 42.88107344632769,
+   "max_hold_hours": 336.1666666666667,
+   "pct_time_with_inventory": 99.6302606720215,
+   "pct_time_underwater": 62.13591107711209,
+   "avg_exposure_pct": 33.0533450782422,
+   "postonly_rejects": 0,
+   "kill_switch": false,
+   "buy_hold_return_pct": 3.90640498636783,
+   "per_pair": {
+    "BTCEUR": {
+     "hold_return_pct": 9.131347505853716,
+     "open_lots": 0
+    },
+    "ETHEUR": {
+     "hold_return_pct": 1.48366550430452,
+     "open_lots": 2
+    },
+    "SOLEUR": {
+     "hold_return_pct": 14.248895434462444,
+     "open_lots": 1
+    },
+    "XRPEUR": {
+     "hold_return_pct": -6.994164958208485,
+     "open_lots": 1
+    },
+    "DOGEEUR": {
+     "hold_return_pct": -8.343965297269712,
+     "open_lots": 3
+    },
+    "ADAEUR": {
+     "hold_return_pct": 0.6925945657964837,
+     "open_lots": 0
+    },
+    "LTCEUR": {
+     "hold_return_pct": 17.12646214963584,
+     "open_lots": 0
+    }
+   },
+   "name": "k=3.5 niv=3 adapt filtro=off",
+   "period": "OOS",
+   "params": {
+    "k": 3.5,
+    "levels": 3,
+    "mode": "adaptive",
+    "trend": false
+   },
+   "secs": 462
+  },
+  {
+   "days": 59.9,
+   "initial_capital": 50.0,
+   "final_equity": 49.688958075,
+   "return_pct": -0.62208385,
+   "realized_pnl": 0.24220347190179642,
+   "unrealized_pnl": -0.5532453969017964,
+   "fees_paid": 0.082942745,
+   "cycles": 4,
+   "liquidated_lots": 0,
+   "open_lots": 3,
+   "avg_net_bps_per_cycle": 202.36482801439723,
+   "max_drawdown_pct": 1.9260174733420865,
+   "avg_hold_hours": 71.0,
+   "max_hold_hours": 193.15,
+   "pct_time_with_inventory": 99.9860911493347,
+   "pct_time_underwater": 18.640178033288517,
+   "avg_exposure_pct": 1.833543072396858,
+   "postonly_rejects": 0,
+   "kill_switch": false,
+   "buy_hold_return_pct": 33.16412999752095,
+   "per_pair": {
+    "BTCEUR": {
+     "hold_return_pct": 25.231436403673023,
+     "open_lots": 0
+    },
+    "ETHEUR": {
+     "hold_return_pct": 49.040845070422534,
+     "open_lots": 1
+    },
+    "SOLEUR": {
+     "hold_return_pct": 36.82619647355164,
+     "open_lots": 0
+    },
+    "XRPEUR": {
+     "hold_return_pct": 34.94360502234518,
+     "open_lots": 0
+    },
+    "DOGEEUR": {
+     "hold_return_pct": 17.037479468418695,
+     "open_lots": 1
+    },
+    "ADAEUR": {
+     "hold_return_pct": 44.83024691358025,
+     "open_lots": 1
+    },
+    "LTCEUR": {
+     "hold_return_pct": 24.239100630655333,
+     "open_lots": 0
+    }
+   },
+   "name": "k=5.0 niv=5 fixed filtro=on",
+   "period": "IS",
+   "params": {
+    "k": 5.0,
+    "levels": 5,
+    "mode": "fixed",
+    "trend": true
+   },
+   "secs": 163
+  },
+  {
+   "days": 59.9,
+   "initial_capital": 50.0,
+   "final_equity": 50.199069595,
+   "return_pct": 0.39813919,
+   "realized_pnl": 0.720020686395942,
+   "unrealized_pnl": -0.520951091395942,
+   "fees_paid": 0.1965763275,
+   "cycles": 12,
+   "liquidated_lots": 0,
+   "open_lots": 2,
+   "avg_net_bps_per_cycle": 200.69652326419296,
+   "max_drawdown_pct": 1.438470382743253,
+   "avg_hold_hours": 89.61527777777779,
+   "max_hold_hours": 266.18333333333334,
+   "pct_time_with_inventory": 98.4445448960905,
+   "pct_time_underwater": 52.90865468201259,
+   "avg_exposure_pct": 6.168132023988884,
+   "postonly_rejects": 0,
+   "kill_switch": false,
+   "buy_hold_return_pct": 3.90640498636783,
+   "per_pair": {
+    "BTCEUR": {
+     "hold_return_pct": 9.131347505853716,
+     "open_lots": 0
+    },
+    "ETHEUR": {
+     "hold_return_pct": 1.48366550430452,
+     "open_lots": 0
+    },
+    "SOLEUR": {
+     "hold_return_pct": 14.248895434462444,
+     "open_lots": 0
+    },
+    "XRPEUR": {
+     "hold_return_pct": -6.994164958208485,
+     "open_lots": 0
+    },
+    "DOGEEUR": {
+     "hold_return_pct": -8.343965297269712,
+     "open_lots": 0
+    },
+    "ADAEUR": {
+     "hold_return_pct": 0.6925945657964837,
+     "open_lots": 2
+    },
+    "LTCEUR": {
+     "hold_return_pct": 17.12646214963584,
+     "open_lots": 0
+    }
+   },
+   "name": "k=5.0 niv=5 fixed filtro=on",
+   "period": "OOS",
+   "params": {
+    "k": 5.0,
+    "levels": 5,
+    "mode": "fixed",
+    "trend": true
+   },
+   "secs": 163
+  },
+  {
+   "days": 59.9,
+   "initial_capital": 50.0,
+   "final_equity": 50.3300432125,
+   "return_pct": 0.660086425,
+   "realized_pnl": 2.3843328271087665,
+   "unrealized_pnl": -2.0542896146087664,
+   "fees_paid": 0.6386076075,
+   "cycles": 39,
+   "liquidated_lots": 0,
+   "open_lots": 7,
+   "avg_net_bps_per_cycle": 207.0431937685922,
+   "max_drawdown_pct": 5.567659645430966,
+   "avg_hold_hours": 46.253846153846155,
+   "max_hold_hours": 207.66666666666666,
+   "pct_time_with_inventory": 98.2915493120994,
+   "pct_time_underwater": 55.4180140709575,
+   "avg_exposure_pct": 18.95735469376759,
+   "postonly_rejects": 0,
+   "kill_switch": false,
+   "buy_hold_return_pct": 3.90640498636783,
+   "per_pair": {
+    "BTCEUR": {
+     "hold_return_pct": 9.131347505853716,
+     "open_lots": 0
+    },
+    "ETHEUR": {
+     "hold_return_pct": 1.48366550430452,
+     "open_lots": 1
+    },
+    "SOLEUR": {
+     "hold_return_pct": 14.248895434462444,
+     "open_lots": 3
+    },
+    "XRPEUR": {
+     "hold_return_pct": -6.994164958208485,
+     "open_lots": 0
+    },
+    "DOGEEUR": {
+     "hold_return_pct": -8.343965297269712,
+     "open_lots": 1
+    },
+    "ADAEUR": {
+     "hold_return_pct": 0.6925945657964837,
+     "open_lots": 0
+    },
+    "LTCEUR": {
+     "hold_return_pct": 17.12646214963584,
+     "open_lots": 2
+    }
+   },
+   "name": "k=5.0 niv=5 fixed filtro=off",
+   "period": "OOS",
+   "params": {
+    "k": 5.0,
+    "levels": 5,
+    "mode": "fixed",
+    "trend": false
+   },
+   "secs": 164
+  },
+  {
+   "days": 59.9,
+   "initial_capital": 50.0,
+   "final_equity": 52.06843612,
+   "return_pct": 4.13687224,
+   "realized_pnl": 2.2003423825864825,
+   "unrealized_pnl": -0.13190626258648233,
+   "fees_paid": 0.560908535,
+   "cycles": 36,
+   "liquidated_lots": 0,
+   "open_lots": 3,
+   "avg_net_bps_per_cycle": 207.32780271793234,
+   "max_drawdown_pct": 1.934499923281687,
+   "avg_hold_hours": 96.63888888888889,
+   "max_hold_hours": 1026.7666666666667,
+   "pct_time_with_inventory": 99.99188650377857,
+   "pct_time_underwater": 66.09601743242617,
+   "avg_exposure_pct": 15.900907353915516,
+   "postonly_rejects": 0,
+   "kill_switch": false,
+   "buy_hold_return_pct": 33.16412999752095,
+   "per_pair": {
+    "BTCEUR": {
+     "hold_return_pct": 25.231436403673023,
+     "open_lots": 1
+    },
+    "ETHEUR": {
+     "hold_return_pct": 49.040845070422534,
+     "open_lots": 0
+    },
+    "SOLEUR": {
+     "hold_return_pct": 36.82619647355164,
+     "open_lots": 0
+    },
+    "XRPEUR": {
+     "hold_return_pct": 34.94360502234518,
+     "open_lots": 0
+    },
+    "DOGEEUR": {
+     "hold_return_pct": 17.037479468418695,
+     "open_lots": 0
+    },
+    "ADAEUR": {
+     "hold_return_pct": 44.83024691358025,
+     "open_lots": 2
+    },
+    "LTCEUR": {
+     "hold_return_pct": 24.239100630655333,
+     "open_lots": 0
+    }
+   },
+   "name": "k=5.0 niv=5 fixed filtro=off",
+   "period": "IS",
+   "params": {
+    "k": 5.0,
+    "levels": 5,
+    "mode": "fixed",
+    "trend": false
+   },
+   "secs": 167
+  },
+  {
+   "days": 59.9,
+   "initial_capital": 50.0,
+   "final_equity": 49.8229138025,
+   "return_pct": -0.354172395,
+   "realized_pnl": 1.4653991787670624,
+   "unrealized_pnl": -1.6424853762670624,
+   "fees_paid": 0.6458483425,
+   "cycles": 39,
+   "liquidated_lots": 0,
+   "open_lots": 8,
+   "avg_net_bps_per_cycle": 126.58962263932031,
+   "max_drawdown_pct": 4.467375415331683,
+   "avg_hold_hours": 42.3551282051282,
+   "max_hold_hours": 266.18333333333334,
+   "pct_time_with_inventory": 99.58969366111478,
+   "pct_time_underwater": 88.4685373853982,
+   "avg_exposure_pct": 15.005798244692423,
+   "postonly_rejects": 0,
+   "kill_switch": false,
+   "buy_hold_return_pct": 3.90640498636783,
+   "per_pair": {
+    "BTCEUR": {
+     "hold_return_pct": 9.131347505853716,
+     "open_lots": 0
+    },
+    "ETHEUR": {
+     "hold_return_pct": 1.48366550430452,
+     "open_lots": 0
+    },
+    "SOLEUR": {
+     "hold_return_pct": 14.248895434462444,
+     "open_lots": 0
+    },
+    "XRPEUR": {
+     "hold_return_pct": -6.994164958208485,
+     "open_lots": 0
+    },
+    "DOGEEUR": {
+     "hold_return_pct": -8.343965297269712,
+     "open_lots": 5
+    },
+    "ADAEUR": {
+     "hold_return_pct": 0.6925945657964837,
+     "open_lots": 2
+    },
+    "LTCEUR": {
+     "hold_return_pct": 17.12646214963584,
+     "open_lots": 1
+    }
+   },
+   "name": "k=3.5 niv=5 adapt filtro=on",
+   "period": "OOS",
+   "params": {
+    "k": 3.5,
+    "levels": 5,
+    "mode": "adaptive",
+    "trend": true
+   },
+   "secs": 458
+  },
+  {
+   "days": 59.9,
+   "initial_capital": 50.0,
+   "final_equity": 50.3569922075,
+   "return_pct": 0.713984415,
+   "realized_pnl": 0.7722862489001743,
+   "unrealized_pnl": -0.4152940414001743,
+   "fees_paid": 0.3420746125,
+   "cycles": 21,
+   "liquidated_lots": 0,
+   "open_lots": 4,
+   "avg_net_bps_per_cycle": 125.40395789262561,
+   "max_drawdown_pct": 2.162530043863146,
+   "avg_hold_hours": 103.97460317460317,
+   "max_hold_hours": 706.3,
+   "pct_time_with_inventory": 99.9860911493347,
+   "pct_time_underwater": 89.72599564189346,
+   "avg_exposure_pct": 10.149289142146808,
+   "postonly_rejects": 0,
+   "kill_switch": false,
+   "buy_hold_return_pct": 33.16412999752095,
+   "per_pair": {
+    "BTCEUR": {
+     "hold_return_pct": 25.231436403673023,
+     "open_lots": 0
+    },
+    "ETHEUR": {
+     "hold_return_pct": 49.040845070422534,
+     "open_lots": 1
+    },
+    "SOLEUR": {
+     "hold_return_pct": 36.82619647355164,
+     "open_lots": 0
+    },
+    "XRPEUR": {
+     "hold_return_pct": 34.94360502234518,
+     "open_lots": 0
+    },
+    "DOGEEUR": {
+     "hold_return_pct": 17.037479468418695,
+     "open_lots": 2
+    },
+    "ADAEUR": {
+     "hold_return_pct": 44.83024691358025,
+     "open_lots": 1
+    },
+    "LTCEUR": {
+     "hold_return_pct": 24.239100630655333,
+     "open_lots": 0
+    }
+   },
+   "name": "k=3.5 niv=5 adapt filtro=on",
+   "period": "IS",
+   "params": {
+    "k": 3.5,
+    "levels": 5,
+    "mode": "adaptive",
+    "trend": true
+   },
+   "secs": 466
+  },
+  {
+   "days": 59.9,
+   "initial_capital": 50.0,
+   "final_equity": 52.4480406325,
+   "return_pct": 4.896081265,
+   "realized_pnl": 2.565312284345929,
+   "unrealized_pnl": -0.11727165184592922,
+   "fees_paid": 0.975949965,
+   "cycles": 64,
+   "liquidated_lots": 0,
+   "open_lots": 3,
+   "avg_net_bps_per_cycle": 136.46636395115726,
+   "max_drawdown_pct": 2.9965422621900193,
+   "avg_hold_hours": 105.96640625,
+   "max_hold_hours": 1027.2666666666667,
+   "pct_time_with_inventory": 99.99188650377857,
+   "pct_time_underwater": 86.6845936297464,
+   "avg_exposure_pct": 28.724072220195435,
+   "postonly_rejects": 0,
+   "kill_switch": false,
+   "buy_hold_return_pct": 33.16412999752095,
+   "per_pair": {
+    "BTCEUR": {
+     "hold_return_pct": 25.231436403673023,
+     "open_lots": 0
+    },
+    "ETHEUR": {
+     "hold_return_pct": 49.040845070422534,
+     "open_lots": 1
+    },
+    "SOLEUR": {
+     "hold_return_pct": 36.82619647355164,
+     "open_lots": 0
+    },
+    "XRPEUR": {
+     "hold_return_pct": 34.94360502234518,
+     "open_lots": 0
+    },
+    "DOGEEUR": {
+     "hold_return_pct": 17.037479468418695,
+     "open_lots": 1
+    },
+    "ADAEUR": {
+     "hold_return_pct": 44.83024691358025,
+     "open_lots": 0
+    },
+    "LTCEUR": {
+     "hold_return_pct": 24.239100630655333,
+     "open_lots": 1
+    }
+   },
+   "name": "k=3.5 niv=5 adapt filtro=off",
+   "period": "IS",
+   "params": {
+    "k": 3.5,
+    "levels": 5,
+    "mode": "adaptive",
+    "trend": false
+   },
+   "secs": 474
+  },
+  {
+   "days": 59.9,
+   "initial_capital": 50.0,
+   "final_equity": 50.3964750975,
+   "return_pct": 0.792950195,
+   "realized_pnl": 2.083440145512635,
+   "unrealized_pnl": -1.6869650480126346,
+   "fees_paid": 0.8735531625,
+   "cycles": 54,
+   "liquidated_lots": 0,
+   "open_lots": 9,
+   "avg_net_bps_per_cycle": 130.5529640680901,
+   "max_drawdown_pct": 5.251334448928466,
+   "avg_hold_hours": 65.31666666666666,
+   "max_hold_hours": 646.9666666666667,
+   "pct_time_with_inventory": 99.6302606720215,
+   "pct_time_underwater": 79.76053872990484,
+   "avg_exposure_pct": 27.35720081266105,
+   "postonly_rejects": 0,
+   "kill_switch": false,
+   "buy_hold_return_pct": 3.90640498636783,
+   "per_pair": {
+    "BTCEUR": {
+     "hold_return_pct": 9.131347505853716,
+     "open_lots": 1
+    },
+    "ETHEUR": {
+     "hold_return_pct": 1.48366550430452,
+     "open_lots": 4
+    },
+    "SOLEUR": {
+     "hold_return_pct": 14.248895434462444,
+     "open_lots": 1
+    },
+    "XRPEUR": {
+     "hold_return_pct": -6.994164958208485,
+     "open_lots": 0
+    },
+    "DOGEEUR": {
+     "hold_return_pct": -8.343965297269712,
+     "open_lots": 3
+    },
+    "ADAEUR": {
+     "hold_return_pct": 0.6925945657964837,
+     "open_lots": 0
+    },
+    "LTCEUR": {
+     "hold_return_pct": 17.12646214963584,
+     "open_lots": 0
+    }
+   },
+   "name": "k=3.5 niv=5 adapt filtro=off",
+   "period": "OOS",
+   "params": {
+    "k": 3.5,
+    "levels": 5,
+    "mode": "adaptive",
+    "trend": false
+   },
+   "secs": 471
+  },
+  {
+   "days": 59.9,
+   "initial_capital": 50.0,
+   "final_equity": 49.45836416,
+   "return_pct": -1.08327168,
+   "realized_pnl": 0.40306497316801054,
+   "unrealized_pnl": -0.9447008131680105,
+   "fees_paid": 0.126217875,
+   "cycles": 4,
+   "liquidated_lots": 0,
+   "open_lots": 2,
+   "avg_net_bps_per_cycle": 201.59360013906328,
+   "max_drawdown_pct": 3.0267348466276993,
+   "avg_hold_hours": 71.0,
+   "max_hold_hours": 193.15,
+   "pct_time_with_inventory": 99.9860911493347,
+   "pct_time_underwater": 26.63544902406231,
+   "avg_exposure_pct": 2.6495103370989437,
+   "postonly_rejects": 0,
+   "kill_switch": false,
+   "buy_hold_return_pct": 33.16412999752095,
+   "per_pair": {
+    "BTCEUR": {
+     "hold_return_pct": 25.231436403673023,
+     "open_lots": 0
+    },
+    "ETHEUR": {
+     "hold_return_pct": 49.040845070422534,
+     "open_lots": 0
+    },
+    "SOLEUR": {
+     "hold_return_pct": 36.82619647355164,
+     "open_lots": 0
+    },
+    "XRPEUR": {
+     "hold_return_pct": 34.94360502234518,
+     "open_lots": 0
+    },
+    "DOGEEUR": {
+     "hold_return_pct": 17.037479468418695,
+     "open_lots": 1
+    },
+    "ADAEUR": {
+     "hold_return_pct": 44.83024691358025,
+     "open_lots": 1
+    },
+    "LTCEUR": {
+     "hold_return_pct": 24.239100630655333,
+     "open_lots": 0
+    }
+   },
+   "name": "k=5.0 niv=3 adapt filtro=on",
+   "period": "IS",
+   "params": {
+    "k": 5.0,
+    "levels": 3,
+    "mode": "adaptive",
+    "trend": true
+   },
+   "secs": 419
+  },
+  {
+   "days": 59.9,
+   "initial_capital": 50.0,
+   "final_equity": 50.6498686475,
+   "return_pct": 1.299737295,
+   "realized_pnl": 1.2025208244755752,
+   "unrealized_pnl": -0.5526521769755751,
+   "fees_paid": 0.3167224875,
+   "cycles": 12,
+   "liquidated_lots": 0,
+   "open_lots": 1,
+   "avg_net_bps_per_cycle": 200.0045948407272,
+   "max_drawdown_pct": 2.0568632690367257,
+   "avg_hold_hours": 89.61527777777779,
+   "max_hold_hours": 266.18333333333334,
+   "pct_time_with_inventory": 98.4445448960905,
+   "pct_time_underwater": 53.79533363468827,
+   "avg_exposure_pct": 8.923278520403274,
+   "postonly_rejects": 0,
+   "kill_switch": false,
+   "buy_hold_return_pct": 3.90640498636783,
+   "per_pair": {
+    "BTCEUR": {
+     "hold_return_pct": 9.131347505853716,
+     "open_lots": 0
+    },
+    "ETHEUR": {
+     "hold_return_pct": 1.48366550430452,
+     "open_lots": 0
+    },
+    "SOLEUR": {
+     "hold_return_pct": 14.248895434462444,
+     "open_lots": 0
+    },
+    "XRPEUR": {
+     "hold_return_pct": -6.994164958208485,
+     "open_lots": 0
+    },
+    "DOGEEUR": {
+     "hold_return_pct": -8.343965297269712,
+     "open_lots": 0
+    },
+    "ADAEUR": {
+     "hold_return_pct": 0.6925945657964837,
+     "open_lots": 1
+    },
+    "LTCEUR": {
+     "hold_return_pct": 17.12646214963584,
+     "open_lots": 0
+    }
+   },
+   "name": "k=5.0 niv=3 adapt filtro=on",
+   "period": "OOS",
+   "params": {
+    "k": 5.0,
+    "levels": 3,
+    "mode": "adaptive",
+    "trend": true
+   },
+   "secs": 386
+  },
+  {
+   "days": 59.9,
+   "initial_capital": 50.0,
+   "final_equity": 53.6103180125,
+   "return_pct": 7.220636025,
+   "realized_pnl": 3.492593071711798,
+   "unrealized_pnl": 0.11772494078820207,
+   "fees_paid": 0.89170115,
+   "cycles": 34,
+   "liquidated_lots": 0,
+   "open_lots": 2,
+   "avg_net_bps_per_cycle": 204.39349064206206,
+   "max_drawdown_pct": 2.738690582845992,
+   "avg_hold_hours": 118.28235294117647,
+   "max_hold_hours": 1026.7666666666667,
+   "pct_time_with_inventory": 99.99188650377857,
+   "pct_time_underwater": 75.31063099819185,
+   "avg_exposure_pct": 29.089136073178935,
+   "postonly_rejects": 0,
+   "kill_switch": false,
+   "buy_hold_return_pct": 33.16412999752095,
+   "per_pair": {
+    "BTCEUR": {
+     "hold_return_pct": 25.231436403673023,
+     "open_lots": 1
+    },
+    "ETHEUR": {
+     "hold_return_pct": 49.040845070422534,
+     "open_lots": 0
+    },
+    "SOLEUR": {
+     "hold_return_pct": 36.82619647355164,
+     "open_lots": 0
+    },
+    "XRPEUR": {
+     "hold_return_pct": 34.94360502234518,
+     "open_lots": 0
+    },
+    "DOGEEUR": {
+     "hold_return_pct": 17.037479468418695,
+     "open_lots": 1
+    },
+    "ADAEUR": {
+     "hold_return_pct": 44.83024691358025,
+     "open_lots": 0
+    },
+    "LTCEUR": {
+     "hold_return_pct": 24.239100630655333,
+     "open_lots": 0
+    }
+   },
+   "name": "k=5.0 niv=3 adapt filtro=off",
+   "period": "IS",
+   "params": {
+    "k": 5.0,
+    "levels": 3,
+    "mode": "adaptive",
+    "trend": false
+   },
+   "secs": 412
+  },
+  {
+   "days": 59.9,
+   "initial_capital": 50.0,
+   "final_equity": 51.8742009575,
+   "return_pct": 3.748401915,
+   "realized_pnl": 3.7893488048916755,
+   "unrealized_pnl": -1.9151478473916757,
+   "fees_paid": 1.0522479825,
+   "cycles": 38,
+   "liquidated_lots": 0,
+   "open_lots": 6,
+   "avg_net_bps_per_cycle": 197.15185858414353,
+   "max_drawdown_pct": 5.622354189110857,
+   "avg_hold_hours": 40.044736842105266,
+   "max_hold_hours": 168.51666666666668,
+   "pct_time_with_inventory": 98.2915493120994,
+   "pct_time_underwater": 53.72347207251063,
+   "avg_exposure_pct": 25.525612389738466,
+   "postonly_rejects": 0,
+   "kill_switch": false,
+   "buy_hold_return_pct": 3.90640498636783,
+   "per_pair": {
+    "BTCEUR": {
+     "hold_return_pct": 9.131347505853716,
+     "open_lots": 1
+    },
+    "ETHEUR": {
+     "hold_return_pct": 1.48366550430452,
+     "open_lots": 2
+    },
+    "SOLEUR": {
+     "hold_return_pct": 14.248895434462444,
+     "open_lots": 1
+    },
+    "XRPEUR": {
+     "hold_return_pct": -6.994164958208485,
+     "open_lots": 1
+    },
+    "DOGEEUR": {
+     "hold_return_pct": -8.343965297269712,
+     "open_lots": 1
+    },
+    "ADAEUR": {
+     "hold_return_pct": 0.6925945657964837,
+     "open_lots": 0
+    },
+    "LTCEUR": {
+     "hold_return_pct": 17.12646214963584,
+     "open_lots": 0
+    }
+   },
+   "name": "k=5.0 niv=3 adapt filtro=off",
+   "period": "OOS",
+   "params": {
+    "k": 5.0,
+    "levels": 3,
+    "mode": "adaptive",
+    "trend": false
+   },
+   "secs": 410
+  },
+  {
+   "days": 59.9,
+   "initial_capital": 50.0,
+   "final_equity": 49.695358075,
+   "return_pct": -0.60928385,
+   "realized_pnl": 0.24220347190179642,
+   "unrealized_pnl": -0.5468453969017965,
+   "fees_paid": 0.082926745,
+   "cycles": 4,
+   "liquidated_lots": 0,
+   "open_lots": 3,
+   "avg_net_bps_per_cycle": 202.36482801439723,
+   "max_drawdown_pct": 1.913281241388429,
+   "avg_hold_hours": 71.0,
+   "max_hold_hours": 193.15,
+   "pct_time_with_inventory": 99.9860911493347,
+   "pct_time_underwater": 18.640178033288517,
+   "avg_exposure_pct": 1.833460556639454,
+   "postonly_rejects": 0,
+   "kill_switch": false,
+   "buy_hold_return_pct": 33.16412999752095,
+   "per_pair": {
+    "BTCEUR": {
+     "hold_return_pct": 25.231436403673023,
+     "open_lots": 0
+    },
+    "ETHEUR": {
+     "hold_return_pct": 49.040845070422534,
+     "open_lots": 1
+    },
+    "SOLEUR": {
+     "hold_return_pct": 36.82619647355164,
+     "open_lots": 0
+    },
+    "XRPEUR": {
+     "hold_return_pct": 34.94360502234518,
+     "open_lots": 0
+    },
+    "DOGEEUR": {
+     "hold_return_pct": 17.037479468418695,
+     "open_lots": 1
+    },
+    "ADAEUR": {
+     "hold_return_pct": 44.83024691358025,
+     "open_lots": 1
+    },
+    "LTCEUR": {
+     "hold_return_pct": 24.239100630655333,
+     "open_lots": 0
+    }
+   },
+   "name": "k=5.0 niv=5 adapt filtro=on",
+   "period": "IS",
+   "params": {
+    "k": 5.0,
+    "levels": 5,
+    "mode": "adaptive",
+    "trend": true
+   },
+   "secs": 401
+  },
+  {
+   "days": 59.9,
+   "initial_capital": 50.0,
+   "final_equity": 50.199069595,
+   "return_pct": 0.39813919,
+   "realized_pnl": 0.720020686395942,
+   "unrealized_pnl": -0.520951091395942,
+   "fees_paid": 0.1965763275,
+   "cycles": 12,
+   "liquidated_lots": 0,
+   "open_lots": 2,
+   "avg_net_bps_per_cycle": 200.69652326419296,
+   "max_drawdown_pct": 1.438470382743253,
+   "avg_hold_hours": 89.61527777777779,
+   "max_hold_hours": 266.18333333333334,
+   "pct_time_with_inventory": 98.4445448960905,
+   "pct_time_underwater": 52.90865468201259,
+   "avg_exposure_pct": 6.168132023988884,
+   "postonly_rejects": 0,
+   "kill_switch": false,
+   "buy_hold_return_pct": 3.90640498636783,
+   "per_pair": {
+    "BTCEUR": {
+     "hold_return_pct": 9.131347505853716,
+     "open_lots": 0
+    },
+    "ETHEUR": {
+     "hold_return_pct": 1.48366550430452,
+     "open_lots": 0
+    },
+    "SOLEUR": {
+     "hold_return_pct": 14.248895434462444,
+     "open_lots": 0
+    },
+    "XRPEUR": {
+     "hold_return_pct": -6.994164958208485,
+     "open_lots": 0
+    },
+    "DOGEEUR": {
+     "hold_return_pct": -8.343965297269712,
+     "open_lots": 0
+    },
+    "ADAEUR": {
+     "hold_return_pct": 0.6925945657964837,
+     "open_lots": 2
+    },
+    "LTCEUR": {
+     "hold_return_pct": 17.12646214963584,
+     "open_lots": 0
+    }
+   },
+   "name": "k=5.0 niv=5 adapt filtro=on",
+   "period": "OOS",
+   "params": {
+    "k": 5.0,
+    "levels": 5,
+    "mode": "adaptive",
+    "trend": true
+   },
+   "secs": 387
+  },
+  {
+   "days": 59.9,
+   "initial_capital": 50.0,
+   "final_equity": 52.0612783675,
+   "return_pct": 4.122556735,
+   "realized_pnl": 2.136644788691456,
+   "unrealized_pnl": -0.07536642119145609,
+   "fees_paid": 0.5374406325,
+   "cycles": 35,
+   "liquidated_lots": 0,
+   "open_lots": 2,
+   "avg_net_bps_per_cycle": 207.38752045739022,
+   "max_drawdown_pct": 1.934499923281687,
+   "avg_hold_hours": 99.32476190476191,
+   "max_hold_hours": 1026.7666666666667,
+   "pct_time_with_inventory": 99.99188650377857,
+   "pct_time_underwater": 66.22931058463536,
+   "avg_exposure_pct": 15.735614080654065,
+   "postonly_rejects": 0,
+   "kill_switch": false,
+   "buy_hold_return_pct": 33.16412999752095,
+   "per_pair": {
+    "BTCEUR": {
+     "hold_return_pct": 25.231436403673023,
+     "open_lots": 1
+    },
+    "ETHEUR": {
+     "hold_return_pct": 49.040845070422534,
+     "open_lots": 0
+    },
+    "SOLEUR": {
+     "hold_return_pct": 36.82619647355164,
+     "open_lots": 0
+    },
+    "XRPEUR": {
+     "hold_return_pct": 34.94360502234518,
+     "open_lots": 0
+    },
+    "DOGEEUR": {
+     "hold_return_pct": 17.037479468418695,
+     "open_lots": 0
+    },
+    "ADAEUR": {
+     "hold_return_pct": 44.83024691358025,
+     "open_lots": 1
+    },
+    "LTCEUR": {
+     "hold_return_pct": 24.239100630655333,
+     "open_lots": 0
+    }
+   },
+   "name": "k=5.0 niv=5 adapt filtro=off",
+   "period": "IS",
+   "params": {
+    "k": 5.0,
+    "levels": 5,
+    "mode": "adaptive",
+    "trend": false
+   },
+   "secs": 367
+  },
+  {
+   "days": 59.9,
+   "initial_capital": 50.0,
+   "final_equity": 50.3305344375,
+   "return_pct": 0.661068875,
+   "realized_pnl": 2.3848163137001817,
+   "unrealized_pnl": -2.0542818762001818,
+   "fees_paid": 0.6386039325,
+   "cycles": 39,
+   "liquidated_lots": 0,
+   "open_lots": 7,
+   "avg_net_bps_per_cycle": 207.08522627118893,
+   "max_drawdown_pct": 5.567607236762581,
+   "avg_hold_hours": 46.253846153846155,
+   "max_hold_hours": 207.66666666666666,
+   "pct_time_with_inventory": 98.2915493120994,
+   "pct_time_underwater": 55.413377841139585,
+   "avg_exposure_pct": 18.957224975132668,
+   "postonly_rejects": 0,
+   "kill_switch": false,
+   "buy_hold_return_pct": 3.90640498636783,
+   "per_pair": {
+    "BTCEUR": {
+     "hold_return_pct": 9.131347505853716,
+     "open_lots": 0
+    },
+    "ETHEUR": {
+     "hold_return_pct": 1.48366550430452,
+     "open_lots": 1
+    },
+    "SOLEUR": {
+     "hold_return_pct": 14.248895434462444,
+     "open_lots": 3
+    },
+    "XRPEUR": {
+     "hold_return_pct": -6.994164958208485,
+     "open_lots": 0
+    },
+    "DOGEEUR": {
+     "hold_return_pct": -8.343965297269712,
+     "open_lots": 1
+    },
+    "ADAEUR": {
+     "hold_return_pct": 0.6925945657964837,
+     "open_lots": 0
+    },
+    "LTCEUR": {
+     "hold_return_pct": 17.12646214963584,
+     "open_lots": 2
+    }
+   },
+   "name": "k=5.0 niv=5 adapt filtro=off",
+   "period": "OOS",
+   "params": {
+    "k": 5.0,
+    "levels": 5,
+    "mode": "adaptive",
+    "trend": false
+   },
+   "secs": 358
+  }
+ ]
+}

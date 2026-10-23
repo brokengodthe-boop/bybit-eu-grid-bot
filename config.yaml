@@ -14,10 +14,11 @@ strategy:
     - "SOLEUR"
     - "XRPEUR"
     - "DOGEEUR"
-  num_levels: 5
-  step_min_bps: 25.0
-  k_fee_multiplier: 2.5        # step_bps = max(step_min_bps, k * 2 * maker_fee_bps)
-  min_expected_net_bps: 5.0    # Descartar par si beneficio neto < 5 bps
+  num_levels: 3
+  step_min_bps: 35.0
+  k_fee_multiplier: 3.5        # Calibrado empíricamente en walk-forward (beneficio neto positivo en IS y OOS)
+  min_expected_net_bps: 15.0   # Descartar par si beneficio neto < 15 bps
+  step_mode: "adaptive"        # Adaptativo a la volatilidad realizada 1m
 
 risk:
   max_inv_pct_pair: 0.30       # 30% del equity total por par (valorado a mid)
