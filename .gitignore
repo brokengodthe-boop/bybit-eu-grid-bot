@@ -1,0 +1,40 @@
+# Entornos virtuales
+venv/
+env/
+.venv/
+
+# Caches de Python y tests
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Archivos de entorno y credenciales sensibles (NUNCA SUBIR A GIT)
+.env
+.env.local
+.env.*.local
+
+# Bases de datos y almacenamiento de estado local
+data/*.db
+data/*.sqlite
+data/backtest_cache/
+data/*.jsonl.gz
+*.jsonl.gz
+*.db
+*.sqlite
+
+# Logs y auditorías locales
+logs/
+*.log
+auditoria.json
+sombra.json
+fills/
+parquet/
+data_linear/
+*.parquet
+
+# Directorios de IDEs y agentes
+.agents/
+.idea/
+.vscode/
+scratch/

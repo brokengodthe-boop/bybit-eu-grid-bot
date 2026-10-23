@@ -1,0 +1,36 @@
+# config.yaml — Configuración Institucional de Grid Trading Spot (Bybit EU)
+exchange:
+  tld: "eu"
+  testnet: false
+  recv_window: 10000
+  rate_limit_per_second: 10
+  rest_poll_interval_seconds: 15
+
+strategy:
+  base_currency: "EUR"
+  initial_capital_eur: 50.0
+  pairs:
+    - "ADAEUR"
+    - "SOLEUR"
+    - "XRPEUR"
+    - "DOGEEUR"
+  num_levels: 5
+  step_min_bps: 25.0
+  k_fee_multiplier: 2.5        # step_bps = max(step_min_bps, k * 2 * maker_fee_bps)
+  min_expected_net_bps: 5.0    # Descartar par si beneficio neto < 5 bps
+
+risk:
+  max_inv_pct_pair: 0.30       # 30% del equity total por par (valorado a mid)
+  max_inv_pct_global: 0.70     # 70% del equity total acumulado entre todos los pares
+  slope_threshold_bps: 35.0    # Pausar compras si caída 5m > 35 bps
+  slope_cooldown_seconds: 300  # 5 minutos de estabilidad antes de reanudar compras
+  order_size_factor: 1.5       # divisor: lot = equity / (num_levels * factor)
+  max_drawdown_pct: 15.0       # Kill switch al 15% de drawdown
+  emergency_liquidate: false   # false: cancela compras y deja ventas; true: liquida a mercado
+
+persistence:
+  db_path: "data/grid_state.db"
+
+logging:
+  level: "INFO"
+  log_file: "logs/grid_trading.log"
