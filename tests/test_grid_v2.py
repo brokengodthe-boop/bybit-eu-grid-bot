@@ -280,3 +280,118 @@ def test_persistence_reconciliation(temp_db, mock_instrument, mock_fee):
     assert "lot_recover_1" in new_engine.open_lots
     assert new_engine.open_lots["lot_recover_1"].net_qty == Decimal("49.8")
     assert len(to_cancel) == 0
+
+# 8. Test de Arrastre Contable de Polvo (Dust Carryover Accounting)
+def test_dust_carryover_accounting(temp_db, mock_instrument, mock_fee):
+    strat_cfg = StrategyConfig(
+        base_currency="EUR",
+        initial_capital_eur=Decimal("50.0"),
+        pairs=["ADAEUR"],
+        num_levels=3,
+        step_min_bps=Decimal("35.0"),
+        k_fee_multiplier=Decimal("3.5"),
+        min_expected_net_bps=Decimal("15.0")
+    )
+    risk_cfg = RiskConfig(
+        max_inv_pct_pair=Decimal("0.30"),
+        max_inv_pct_global=Decimal("0.70"),
+        slope_threshold_bps=Decimal("35.0"),
+        order_size_factor=Decimal("3.34")
+    )
+    engine = GridEngine(strat_cfg, RiskManager(risk_cfg), temp_db)
+    engine.register_instrument(mock_instrument, mock_fee)
+
+    # Compra 1: 50 ADA -> fee 0.125 ADA -> neto 49.875 -> vende 49.8 ADA, polvo = 0.075 ADA
+    buy_1 = Order(order_link_id="b1", symbol="ADAEUR", side=OrderSide.BUY, price=Decimal("0.2000"), qty=Decimal("50.0"))
+    engine.active_orders["b1"] = buy_1
+    s1 = engine.on_order_filled("b1", exec_price=Decimal("0.2000"), exec_qty=Decimal("50.0"),
+                                exec_fee=Decimal("0.125"), fee_coin="ADA")
+    assert s1.qty == Decimal("49.8")
+    assert engine.residual_qty["ADAEUR"] == Decimal("0.075")
+
+    # Compra 2: 50 ADA -> fee 0.125 ADA -> neto 49.875 + polvo 0.075 = 49.950 ADA -> vende 49.9 ADA!
+    buy_2 = Order(order_link_id="b2", symbol="ADAEUR", side=OrderSide.BUY, price=Decimal("0.2000"), qty=Decimal("50.0"))
+    engine.active_orders["b2"] = buy_2
+    s2 = engine.on_order_filled("b2", exec_price=Decimal("0.2000"), exec_qty=Decimal("50.0"),
+                                exec_fee=Decimal("0.125"), fee_coin="ADA")
+    assert s2.qty == Decimal("49.9")
+    assert engine.residual_qty["ADAEUR"] == Decimal("0.050")
+
+# 9. Test de Kill-Switch y Liquidación de Emergencia (g2x-)
+def test_kill_switch_and_emergency_liquidation(temp_db, mock_instrument, mock_fee):
+    strat_cfg = StrategyConfig(
+        base_currency="EUR",
+        initial_capital_eur=Decimal("50.0"),
+        pairs=["ADAEUR"],
+        num_levels=3
+    )
+    risk_cfg = RiskConfig(
+        max_drawdown_pct=Decimal("15.0"),
+        emergency_liquidate=True
+    )
+    risk_mgr = RiskManager(risk_cfg)
+    engine = GridEngine(strat_cfg, risk_mgr, temp_db)
+    engine.register_instrument(mock_instrument, mock_fee)
+
+    # Crear lote abierto
+    lot = Lot(
+        lot_id="lot_liq_1",
+        symbol="ADAEUR",
+        buy_order_link_id="b_liq",
+        buy_price=Decimal("0.2000"),
+        buy_qty=Decimal("50.0"),
+        fee_base_coin=Decimal("0.125"),
+        net_qty=Decimal("49.8"),
+        cost_quote=Decimal("10.0"),
+        status=LotStatus.OPEN
+    )
+    engine.open_lots["lot_liq_1"] = lot
+    engine.update_mid_price("ADAEUR", Decimal("0.1500")) # Caída fuerte
+
+    # Establecer marca máxima de equity en 50 EUR
+    risk_mgr.check_drawdown_kill_switch(Decimal("50.0"))
+    assert risk_mgr.peak_equity == Decimal("50.0")
+
+    # Equity cae a 35 EUR desde 50 EUR (30% drawdown > 15% límite)
+    killed, dd = risk_mgr.check_drawdown_kill_switch(Decimal("35.0"))
+    assert killed is True
+    assert dd == Decimal("30.0")
+
+    # Generar órdenes de liquidación
+    liq_orders = engine.emergency_liquidation_orders()
+    assert len(liq_orders) == 1
+    assert liq_orders[0].order_link_id.startswith("g2x")
+    assert liq_orders[0].side == OrderSide.SELL
+    assert liq_orders[0].qty == Decimal("49.8")
+
+# 10. Test de Repricing Automático en Rechazo PostOnly de Venta
+def test_sell_repricing_on_postonly_reject(temp_db, mock_instrument, mock_fee):
+    strat_cfg = StrategyConfig(base_currency="EUR", initial_capital_eur=Decimal("50.0"), pairs=["ADAEUR"])
+    engine = GridEngine(strat_cfg, RiskManager(RiskConfig()), temp_db)
+    engine.register_instrument(mock_instrument, mock_fee)
+
+    lot = Lot(
+        lot_id="lot_reprice_1",
+        symbol="ADAEUR",
+        buy_order_link_id="b_rep",
+        buy_price=Decimal("0.2000"),
+        buy_qty=Decimal("50.0"),
+        fee_base_coin=Decimal("0.125"),
+        net_qty=Decimal("49.8"),
+        cost_quote=Decimal("10.0"),
+        target_sell_price=Decimal("0.2050"),
+        status=LotStatus.OPEN
+    )
+    engine.open_lots["lot_reprice_1"] = lot
+    sell = engine._new_sell_for_lot(lot, Decimal("0.2050"))
+
+    # El mercado salta a best_bid = 0.2060 EUR (> 0.2050)
+    best_bid = Decimal("0.2060")
+    new_sell = engine.reprice_sell(sell.order_link_id, best_bid)
+
+    assert new_sell is not None
+    # Debe ser al menos best_bid + 1 tick (0.2060 + 0.0001 = 0.2061)
+    assert new_sell.price == Decimal("0.2061")
+    assert new_sell.qty == Decimal("49.8")
+    assert new_sell.order_link_id in engine.active_orders
+

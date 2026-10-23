@@ -25,7 +25,7 @@ risk:
   max_inv_pct_global: 0.70     # 70% del equity total acumulado entre todos los pares
   slope_threshold_bps: 35.0    # Pausar compras si caída 5m > 35 bps
   slope_cooldown_seconds: 300  # 5 minutos de estabilidad antes de reanudar compras
-  order_size_factor: 1.5       # divisor: lot = equity / (num_levels * factor)
+  order_size_factor: 3.34      # divisor: lot = equity / (num_levels * factor); factor = 1 / max_inv_pct_pair = 3.34
   max_drawdown_pct: 15.0       # Kill switch al 15% de drawdown
   emergency_liquidate: false   # false: cancela compras y deja ventas; true: liquida a mercado
 
